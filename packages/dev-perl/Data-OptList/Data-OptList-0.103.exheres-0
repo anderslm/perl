@@ -1,0 +1,18 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+
+MODULE_AUTHOR="RJBS"
+require perl-module
+
+DESCRIPTION="Parse and validate simple name/value option pairs"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Params-Util
+        dev-perl/Sub-Install"
+
