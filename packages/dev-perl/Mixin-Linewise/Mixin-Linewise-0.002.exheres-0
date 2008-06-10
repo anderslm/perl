@@ -1,0 +1,19 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+# Based in part upon 'Mixin-Linewise-0.002.ebuild' from Gentoo, which is:
+#     Copyright 1999-2008 Gentoo Foundation.
+
+MODULE_AUTHOR="RJBS"
+require perl-module
+
+DESCRIPTION="Write your linewise code for handles; this does the rest"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/IO-String
+        dev-perl/Sub-Exporter"
+
