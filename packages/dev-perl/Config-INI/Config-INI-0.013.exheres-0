@@ -1,0 +1,17 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+
+MODULE_AUTHOR="RJBS"
+require perl-module
+
+DESCRIPTION="Simple .ini-file format"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Mixin-Linewise"
+
