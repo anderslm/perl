@@ -1,0 +1,15 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+
+MODULE_AUTHOR="GAAS"
+require perl-module
+
+DESCRIPTION="IO::File interface for in-core strings"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
