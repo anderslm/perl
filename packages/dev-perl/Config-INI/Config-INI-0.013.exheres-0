@@ -5,7 +5,7 @@
 MODULE_AUTHOR="RJBS"
 require perl-module
 
-DESCRIPTION="Simple .ini-file format"
+SUMMARY="Simple .ini-file format"
 
 SLOT="0"
 PLATFORMS="~amd64"

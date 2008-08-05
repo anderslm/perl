@@ -6,7 +6,7 @@
 MODULE_AUTHOR="GRANTM"
 require perl-module
 
-DESCRIPTION="XML::Simple - Easy API to read/write XML (esp config files)"
+SUMMARY="XML::Simple - Easy API to read/write XML (esp config files)"
 
 SLOT="0"
 PLATFORMS="~x86"

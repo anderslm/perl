@@ -4,7 +4,7 @@
 MODULE_AUTHOR="INGY"
 require perl-module
 
-DESCRIPTION="Perl YAML implementation using XS and libyaml"
+SUMMARY="Perl YAML implementation using XS and libyaml"
 
 PLATFORMS="~amd64"
 

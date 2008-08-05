@@ -6,7 +6,7 @@
 MODULE_AUTHOR="RJBS"
 require perl-module
 
-DESCRIPTION="Write your linewise code for handles; this does the rest"
+SUMMARY="Write your linewise code for handles; this does the rest"
 
 SLOT="0"
 PLATFORMS="~amd64"

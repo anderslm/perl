@@ -5,7 +5,7 @@
 MODULE_AUTHOR="GAAS"
 require perl-module
 
-DESCRIPTION="IO::File interface for in-core strings"
+SUMMARY="IO::File interface for in-core strings"
 
 SLOT="0"
 PLATFORMS="~amd64"

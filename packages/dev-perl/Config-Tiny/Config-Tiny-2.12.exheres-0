@@ -4,7 +4,7 @@
 MODULE_AUTHOR="ADAMK"
 require perl-module
 
-DESCRIPTION="Read/Write .ini style files with as little code as possible"
+SUMMARY="Read/Write .ini style files with as little code as possible"
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
