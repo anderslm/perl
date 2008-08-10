@@ -6,5 +6,8 @@ require perl-module
 
 SUMMARY="Perl YAML implementation using XS and libyaml"
 
+SLOT="0"
 PLATFORMS="~amd64"
+MYOPTIONS=""
 
+DEPENDENCIES=""
