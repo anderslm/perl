@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="IO::File interface for in-core strings"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""

@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="A sophisticated exporter for custom-built routines"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

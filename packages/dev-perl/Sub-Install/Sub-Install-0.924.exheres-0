@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="Install subroutines into packages easily"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""

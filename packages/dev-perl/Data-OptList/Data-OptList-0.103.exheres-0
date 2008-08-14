@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="Parse and validate simple name/value option pairs"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

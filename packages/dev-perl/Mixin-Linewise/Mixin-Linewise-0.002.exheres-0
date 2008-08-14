@@ -9,7 +9,7 @@ require perl-module
 SUMMARY="Write your linewise code for handles; this does the rest"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
