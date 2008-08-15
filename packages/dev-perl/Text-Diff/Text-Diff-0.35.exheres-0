@@ -1,0 +1,26 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="RBS"
+require perl-module
+
+SUMMARY="Perform diffs on files and record sets"
+DESCRIPTION="diff() provides a basic set of services akin to the GNU diff
+utility. It is not anywhere near as feature complete as GNU diff, but it is
+better integrated with Perl and available on all platforms. It is often faster
+than shelling out to a system's diff executable for small files, and generally
+slower on larger files.
+Relies on Algorithm::Diff for, well, the algorithm. This may not produce the
+same exact diff as a system's local diff executable, but it will be a valid diff
+and comprehensible by patch. We haven't seen any differences between
+Algorithm::Diff's logic and GNU diff's, but we have not examined them to make
+sure they are indeed identical."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Algorithm-Diff"
+
