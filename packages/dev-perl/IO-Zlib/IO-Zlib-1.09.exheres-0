@@ -1,0 +1,22 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="TOMHUGHES"
+require perl-module
+
+SUMMARY="IO:: style interface to Compress::Zlib"
+DESCRIPTION="IO::Zlib provides an IO:: style interface to Compress::Zlib and
+hence to gzip/zlib compressed files. It provides many of the same methods as the
+IO::Handle interface.
+Starting from IO::Zlib version 1.02, IO::Zlib can also use an external gzip
+command. The default behaviour is to try to use an external gzip if no
+Compress::Zlib can be loaded."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run: dev-perl/Compress-Zlib"
+
+DEFAULT_SRC_PREPARE_PATCHES=( "${FILESDIR}/${PN}-fix-external-test.patch" )
