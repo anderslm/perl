@@ -1,0 +1,23 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="KANE"
+require perl-module
+
+SUMMARY="A perl module for manipulations of tar archives"
+DESCRIPTION="Archive::Tar provides an object oriented mechanism for handling tar
+files. It provides class methods for quick and easy files handling while also
+allowing for the creation of tar file objects for custom manipulation. If you
+have the IO::Zlib module installed, Archive::Tar will also support compressed or
+gzipped tar files.
+An object of class Archive::Tar represents a .tar(.gz) archive full of files and
+things."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run: dev-perl/IO-Zlib
+    suggested: dev-perl/Text-Diff"
+
