@@ -1,0 +1,18 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ADIE"
+require perl-module
+
+SUMMARY="Test exception-based code"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        >=dev-perl/Sub-Uplevel-0.18
+        >=dev-perl/Test-Harness-2.03"
+#       >=dev-perl/Test-Builder
+
