@@ -1,0 +1,15 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="NEDKONZ"
+require perl-module
+
+SUMMARY="Compute intelligent differences between two files / lists"
+DESCRIPTION="Provides access from perl to different algorithms for calcuting
+diffs."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
