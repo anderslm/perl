@@ -1,0 +1,22 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module
+
+SCM_TYPE="git"
+SCM_REPOSITORY="git://git.pioto.org/paludis-perl.git"
+require scm
+
+SUMMARY="Perl bindings for paludis, the other package mangler"
+HOMEPAGE="http://git.pioto.org/?p=paludis-perl.git"
+SRC_URI=""
+
+LICENSE=""
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        sys-apps/paludis"
+
