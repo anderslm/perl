@@ -1,0 +1,19 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="KWILLIAMS"
+require perl-module
+
+SUMMARY="Converts Perl XS code into C code"
+DESCRIPTION="ExtUtils::ParseXS will compile XS code into C code by embedding the
+constructs necessary to let C functions manipulate Perl values and creates the
+glue necessary to let Perl access those functions. The compiler uses typemaps to
+determine how to map C function parameters and variables to Perl values."
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/ExtUtils-CBuilder"
+
