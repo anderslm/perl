@@ -9,9 +9,9 @@ require scm
 
 SUMMARY="Perl bindings for paludis, the other package mangler"
 HOMEPAGE="http://git.pioto.org/?p=paludis-perl.git"
-SRC_URI=""
+SOURCES=""
 
-LICENSE=""
+LICENCES=""
 SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
