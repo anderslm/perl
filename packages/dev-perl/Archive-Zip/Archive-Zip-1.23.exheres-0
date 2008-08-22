@@ -1,0 +1,25 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ADAMK"
+require perl-module
+
+SUMMARY="Provides an interface to ZIP archive files"
+DESCRIPTION="The Archive::Zip module allows a Perl program to create,
+manipulate, read, and write Zip archive files.
+Zip archives can be created, or you can read from existing zip files.
+Once created, they can be written to files, streams, or strings. Members can be
+added, removed, extracted, replaced, rearranged, and enumerated. They can also
+be renamed or have their dates, comments, or other attributes queried or
+modified. Their data can be compressed or uncompressed as needed.
+Members can be created from members in existing Zip files, or from existing
+directories, files, or strings."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Compress-Zlib"
+
