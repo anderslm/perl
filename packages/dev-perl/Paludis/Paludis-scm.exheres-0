@@ -9,7 +9,7 @@ require scm
 
 SUMMARY="Perl bindings for paludis, the other package mangler"
 HOMEPAGE="http://git.pioto.org/?p=paludis-perl.git"
-SOURCES=""
+DOWNLOADS=""
 
 LICENCES=""
 SLOT="0"

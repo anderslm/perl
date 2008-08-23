@@ -19,4 +19,4 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run: dev-perl/Compress-Zlib"
 
-DEFAULT_SRC_PREPARE_PATCHES=( "${FILESDIR}/${PN}-fix-external-test.patch" )
+DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}/${PN}-fix-external-test.patch" )
