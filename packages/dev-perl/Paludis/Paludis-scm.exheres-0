@@ -3,9 +3,8 @@
 
 require perl-module
 
-SCM_TYPE="git"
 SCM_REPOSITORY="git://git.pioto.org/paludis-perl.git"
-require scm
+require scm-git
 
 SUMMARY="Perl bindings for paludis, the other package mangler"
 HOMEPAGE="http://git.pioto.org/?p=paludis-perl.git"
