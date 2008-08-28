@@ -17,5 +17,6 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        sys-apps/paludis"
+        sys-apps/paludis
+        dev-perl/Test-Trap"
 
