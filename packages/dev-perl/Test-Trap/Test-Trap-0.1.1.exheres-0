@@ -1,0 +1,12 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="EBHANSSEN"
+require perl-module
+
+SUMMARY="Trap exit codes, exceptions, output, etc."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
