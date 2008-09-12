@@ -1,0 +1,13 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="FDALY"
+require perl-module
+
+SUMMARY="Ease testing test modules built with Test::Builder"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="" # Test::Builder
+
