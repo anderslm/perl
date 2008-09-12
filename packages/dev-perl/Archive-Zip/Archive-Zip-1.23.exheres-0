@@ -16,7 +16,7 @@ Members can be created from members in existing Zip files, or from existing
 directories, files, or strings."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
