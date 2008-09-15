@@ -1,0 +1,11 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SRI"
+require perl-module
+
+SUMMARY="Simple Eyecandy ASCII Tables"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
