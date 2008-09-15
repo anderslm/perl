@@ -1,0 +1,15 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="STEVAN"
+require perl-module
+
+SUMMARY="A simple tree object"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build:
+      >=dev-perl/Test-Exception-0.15"
+
