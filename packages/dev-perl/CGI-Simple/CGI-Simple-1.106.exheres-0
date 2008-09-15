@@ -1,0 +1,15 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ANDYA"
+require perl-module
+
+SUMMARY="A simple OO CGI interface that is CGI.pm compliant"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/version
+"
