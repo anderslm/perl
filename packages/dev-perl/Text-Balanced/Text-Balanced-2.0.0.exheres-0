@@ -1,0 +1,18 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="DCONWAY"
+MY_PNV="${PN}-v${PV}"
+require perl-module
+
+SUMMARY="Extract delimited text sequences from strings"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/version"
+
+WORK="${WORKBASE}/${MY_PNV}"
+
