@@ -1,0 +1,19 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="AGRUNDMA"
+require perl-module
+
+SUMMARY="HTTP Body Parser"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+      >=dev-perl/File-Temp-0.14
+        dev-perl/IO
+        dev-perl/libwww-perl
+      >=dev-perl/YAML-0.39
+"
+
