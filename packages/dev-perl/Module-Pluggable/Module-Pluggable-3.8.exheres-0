@@ -1,0 +1,13 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SIMONW"
+require perl-module
+
+SUMMARY="Automatically give your module the ability to have plugins"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES=""
+
