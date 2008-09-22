@@ -9,7 +9,8 @@ require perl-module
 SUMMARY="XML::Simple - Easy API to read/write XML (esp config files)"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
+
