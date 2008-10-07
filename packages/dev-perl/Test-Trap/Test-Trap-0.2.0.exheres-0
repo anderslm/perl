@@ -12,6 +12,6 @@ PLATFORMS="~amd64 ~x86"
 DEPENDENCIES="
     build+run:
         dev-perl/Data-Dump
-        dev-perl/Test-Tester
+      >=dev-perl/Test-Tester-0.107
         dev-perl/version"
 
