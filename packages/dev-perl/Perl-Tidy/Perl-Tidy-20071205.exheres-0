@@ -1,0 +1,15 @@
+# Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SHANCOCK"
+require perl-module
+
+SUMMARY="Parses and beautifies perl source"
+DESCRIPTION="This module reformats perl source according to a standard set of
+rules. This package includes the perltidy command-line utility"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
