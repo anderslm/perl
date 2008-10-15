@@ -18,6 +18,10 @@ PLATFORMS="~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
-    build+run: dev-perl/IO-Zlib
-    suggested: dev-perl/Text-Diff"
-
+    build+run:
+        >=dev-perl/Compress-Zlib-2.012
+        dev-perl/IO-Zlib
+        dev-perl/Package-Constants
+    suggested:
+        dev-perl/Text-Diff
+"
