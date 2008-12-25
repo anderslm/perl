@@ -1,0 +1,23 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ARISTOTLE"
+
+require perl-module
+
+SUMMARY="No-fuss generation of Atom syndication feeds"
+DESCRIPTION="
+This module provides a minimal API for generating Atom syndication feeds
+quickly and easily. It supports all aspects of the Atom format, but has no
+provisions for generating feeds with extension elements.  You can supply
+strings for most things, and the module will provide useful defaults. When you
+want more control, you can provide data structures, as documented, to specify
+more particulars.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
