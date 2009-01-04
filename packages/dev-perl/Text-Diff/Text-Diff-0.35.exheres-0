@@ -17,7 +17,7 @@ Algorithm::Diff's logic and GNU diff's, but we have not examined them to make
 sure they are indeed identical."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

@@ -9,7 +9,7 @@ DESCRIPTION="Provides access from perl to different algorithms for calcuting
 diffs."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""

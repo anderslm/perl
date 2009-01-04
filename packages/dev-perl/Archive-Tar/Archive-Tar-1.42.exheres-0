@@ -14,14 +14,14 @@ An object of class Archive::Tar represents a .tar(.gz) archive full of files and
 things."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        >=dev-perl/Compress-Zlib-2.012
+      >=dev-perl/Compress-Zlib-2.012
         dev-perl/IO-Zlib
         dev-perl/Package-Constants
-    suggested:
+    post,suggested:
         dev-perl/Text-Diff
 "
