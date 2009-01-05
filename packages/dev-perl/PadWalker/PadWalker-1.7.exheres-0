@@ -1,0 +1,17 @@
+# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR=robin
+
+require perl-module
+
+SUMMARY="Play with other peoples' lexical variables"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+      >=dev-lang/perl-5.8.2"
+
