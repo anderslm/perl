@@ -1,0 +1,17 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ROSCH"
+require perl-module
+
+SUMMARY="quote strings for passing through the shell"
+DESCRIPTION="
+This module contains some functions which are useful for quoting strings
+which are going to pass through the shell or a shell-like object.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES=""
+
