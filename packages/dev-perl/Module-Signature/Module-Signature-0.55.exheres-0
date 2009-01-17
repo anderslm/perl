@@ -1,0 +1,20 @@
+# Copyright 2008 Mike Kelly <pioto@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="AUDREYT"
+require perl-module
+
+SUMMARY="Module signature file manipulation"
+DESCRIPTION="
+Module::Signature adds cryptographic authentications to CPAN
+distributions, via the special SIGNATURE file.
+"
+LICENCES="as-is"
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+build+run:
+    app-crypt/gnupg
+    dev-perl/Digest-SHA1
+"
