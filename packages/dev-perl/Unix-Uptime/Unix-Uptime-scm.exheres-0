@@ -1,0 +1,21 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module
+
+SCM_REPOSITORY="git://git.pioto.org/Unix-Uptime.git"
+require scm-git
+
+SUMMARY="Determine the current uptime, in seconds, across different *NIX architectures"
+DESCRIPTION="
+This is a rather simple module that abstracts the task of figuring out
+the current system uptime, in seconds. It was born out of a desire to do
+this on non-Linux systems, without SNMP. If you want to use SNMP, there
+are pleanty of modules on CPAN already.
+"
+HOMEPAGE="${HOMEPAGE} http://git.pioto.org/?p=Unix-Uptime.git"
+
+LICENCES="|| ( Artistic GPL-2 )"
+SLOT="0"
+PLATFORMS="~amd64"
+
