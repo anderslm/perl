@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="Perl extension for manipulating IPv4/IPv6 addresses"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
