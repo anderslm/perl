@@ -1,0 +1,24 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="BINGOS"
+require perl-module
+
+SUMMARY="A fully event-driven IRC client module "
+DESCRIPTION="POE::Component::IRC is a POE component (who'd have guessed?) which
+acts as an easily controllable IRC client for your other POE components and
+sessions. You create an IRC component and tell it what events your session
+cares about and where to connect to, and it sends back interesting IRC events
+when they happen. You make the client do things by sending it events. That's
+all there is to it. Cool, no?
+"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/POE
+        dev-perl/POE-Component-Pluggable
+        dev-perl/POE-Filter-IRCD"
