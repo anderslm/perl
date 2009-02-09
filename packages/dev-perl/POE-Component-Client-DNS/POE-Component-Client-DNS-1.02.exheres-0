@@ -1,0 +1,18 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="RCAPUTO"
+require perl-module
+
+SUMMARY="Non-blocking, concurrent DNS requests using POE"
+DESCRIPTION="POE::Component::Client::DNS provides a facility for non-blocking,
+concurrent DNS requests. Using POE, it allows other tasks to run while waiting
+for name servers to respond."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    dev-perl/POE
+    dev-perl/Net-DNS"
