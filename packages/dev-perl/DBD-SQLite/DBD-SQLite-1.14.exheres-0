@@ -19,3 +19,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/DBI"
+
+PERL_MODULE_SRC_CONFIGURE_PARAMS=( "USE_LOCAL_SQLITE=Yes" )
