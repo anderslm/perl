@@ -1,0 +1,24 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="RCAPUTO"
+require perl-module
+
+SUMMARY="Portable multitasking and networking framework for Perl"
+DESCRIPTION="POE is a framework for cooperative, event driven multitasking and
+networking in Perl. POE originally was developed as the core of a persistent
+object server and runtime environment. It has since evolved into something much
+more generic and widely useful. POE provides a unified interface for several
+other event loops, including select(), IO::Poll, Glib, Gtk, Tk, Wx, Gtk2, and
+so on. POE is designed in layers, each building atop the lower level ones.
+Programs are free to use POE at any level of abstraction, and different levels
+can be mixed and matched seamlessly within a single program."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/POE-Test-Loops
+"
