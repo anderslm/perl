@@ -9,7 +9,7 @@ SUMMARY="Perl interface to the DNS resolver  "
 
 LICENCES=""
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
