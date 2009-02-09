@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Database independent interface for Perl"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
     post,suggested:
