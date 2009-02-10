@@ -19,7 +19,7 @@ has the same significance as the return value of 'normal' plugin handlers.
 "
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

@@ -10,7 +10,7 @@ constructs necessary to let C functions manipulate Perl values and creates the
 glue necessary to let Perl access those functions. The compiler uses typemaps to
 determine how to map C function parameters and variables to Perl values."
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

@@ -15,7 +15,7 @@ Programs are free to use POE at any level of abstraction, and different levels
 can be mixed and matched seamlessly within a single program."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

@@ -9,7 +9,7 @@ DESCRIPTION="This module reformats perl source according to a standard set of
 rules. This package includes the perltidy command-line utility"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
