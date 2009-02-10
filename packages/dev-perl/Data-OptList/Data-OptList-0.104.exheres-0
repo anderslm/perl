@@ -1,8 +1,8 @@
-# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Copyright 2008, 2009 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-
 MODULE_AUTHOR="RJBS"
+
 require perl-module
 
 SUMMARY="Parse and validate simple name/value option pairs"
