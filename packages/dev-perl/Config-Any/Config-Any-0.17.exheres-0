@@ -1,0 +1,19 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="BRICAS"
+require perl-module
+
+SUMMARY="Load configuration from different file formats, transparently"
+DESCRIPTION="Config::Any provides a facility for Perl applications and
+libraries to load configuration data from multiple different file formats.
+It supports XML, YAML, JSON, Apache-style configuration, Windows INI
+files, and even Perl code."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Module-Pluggable"
