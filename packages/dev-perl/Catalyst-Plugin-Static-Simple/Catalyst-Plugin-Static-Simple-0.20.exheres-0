@@ -1,0 +1,24 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="AGRUNDMA"
+require perl-module
+
+SUMMARY="Make serving static pages in Catalyst painless"
+DESCRIPTION="The Static::Simple plugin is designed to make serving static
+content in your application during development quick and easy, without
+requiring a single line of code from you. This plugin detects static files
+by looking at the file extension in the URL (such as .css or .png or .js).
+The plugin uses the lightweight MIME::Types module to map file extensions
+to IANA-registered MIME types, and will serve your static files with the
+correct MIME type directly to the browser, without being processed through
+Catalyst."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Catalyst-Runtime
+        dev-perl/MIME-Types"
