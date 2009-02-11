@@ -1,0 +1,27 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="NUFFIN"
+require perl-module
+
+SUMMARY="Visitor style traversal of Perl data structures"
+DESCRIPTION="This module is a simple visitor implementation for Perl values.
+It has a main dispatcher method, visit, which takes a single perl value and
+then calls the methods appropriate for that value. It can recursively map
+(cloning as necessary) or just traverse most structures, with support for per
+object behavior, circular structures, visiting tied structures, and all ref
+types (hashes, arrays, scalars, code, globs)."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Mouse
+        dev-perl/namespace-clean
+        dev-perl/Task-Weaken
+        dev-perl/Tie-ToObject
+    build:
+        dev-perl/Test-MockObject
+        dev-perl/Test-use-ok"
