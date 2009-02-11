@@ -1,0 +1,23 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ILMARI"
+require perl-module
+
+SUMMARY="Dynamic definition of a DBIx::Class::Schema"
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Carp-Clan
+        dev-perl/Class-Accessor
+        dev-perl/Class-C3
+        dev-perl/Class-Inspector
+        dev-perl/DBI
+        dev-perl/DBIx-Class
+        dev-perl/Data-Dump
+        dev-perl/DBD-SQLite
+        dev-perl/Lingua-EN-Inflect-Number
+        dev-perl/UNIVERSAL-require"
