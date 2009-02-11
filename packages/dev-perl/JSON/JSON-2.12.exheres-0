@@ -1,0 +1,13 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="MAKAMAKA"
+require perl-module
+
+SUMMARY="JSON (JavaScript Object Notation) encoder/decoder "
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
