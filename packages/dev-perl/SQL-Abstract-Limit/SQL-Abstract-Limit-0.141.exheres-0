@@ -1,0 +1,18 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="DAVEBAIRD"
+require perl-module
+
+SUMMARY="SQL Abtract LIMIT emulation"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/DBI
+        dev-perl/SQL-Abstract
+        dev-perl/Test-Deep
+        dev-perl/Test-Exception"
