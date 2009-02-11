@@ -1,0 +1,13 @@
+# Copyright Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ADAMK"
+require perl-module
+
+SUMMARY="Ensure that a platform has weaken support"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
