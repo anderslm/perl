@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="Hack around people calling UNIVERSAL::can() as a function"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

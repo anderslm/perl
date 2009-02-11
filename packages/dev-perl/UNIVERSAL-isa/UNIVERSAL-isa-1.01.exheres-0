@@ -8,7 +8,7 @@ require perl-module
 SUMMARY="Attempt to recover from people calling UNIVERSAL::isa as a function"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
