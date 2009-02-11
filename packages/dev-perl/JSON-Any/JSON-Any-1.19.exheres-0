@@ -1,0 +1,18 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="PERIGRIN"
+require perl-module
+
+SUMMARY="Wrapper Class for the various JSON classes"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        || (
+            dev-perl/JSON-XS
+            dev-perl/JSON
+           )"
