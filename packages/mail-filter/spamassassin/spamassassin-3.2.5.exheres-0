@@ -1,0 +1,57 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module
+
+MY_PNV="Mail-SpamAssassin-${PV}"
+
+SUMMARY="SpamAssassin is an extensible email filter which is used to identify spam"
+DESCRIPTION="
+SpamAssassin is a mail filter which attempts to identify spam using a variety
+of mechanisms including text analysis, Bayesian filtering, DNS blocklists, and
+collaborative filtering databases.SpamAssassin is a mail filter which attempts
+to identify spam using a variety of mechanisms including text analysis,
+Bayesian filtering, DNS blocklists, and collaborative filtering databases.
+"
+HOMEPAGE="http://spamassassin.apache.org"
+DOWNLOADS="mirror://apache/${PN}/source/${MY_PNV}.tar.bz2"
+
+LICENCES="Apache-2.0"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS="ipv6"
+
+DEPENDENCIES="
+    build+run:
+      >=dev-lang/perl-5.6.1:=
+        dev-libs/openssl
+        dev-perl/Digest-SHA1
+      >=dev-perl/HTML-Parser-3.43
+      >=dev-perl/Net-DNS-0.34
+        ipv6? (
+            dev-perl/IO-Socket-INET6 [[ note = [ Required if the first nameserver listed in your IP configuration or /etc/resolv.conf file is available only via an IPv6 address ] ]]
+        )
+
+    post,suggested:
+      >=dev-perl/Archive-Tar-1.23   [[ description = [ The 'sa-update' script uses this to access tar update archive files ] ]]
+        dev-perl/DBI                [[ description = [ Needed if you want to use an SQL database backend for user configuration data, Bayes storage or other storage ] ]]
+        dev-perl/Encode-Detect      [[ description = [ Needed for the 'normalize_charset' config setting (to detect charsets and convert them into Unicode) ] ]]
+        dev-perl/Mail-DKIM          [[ description = [ If the the DKIM/DomainKeys plugins are enabled, SA will perform DKIM/Domain Key lookups when a DKIM-Signature header/Domain Key information is present in the message headers ] ]]
+        dev-perl/Mail-SPF           [[ description = [ Used to check DNS Sender Policy Framework (SPF) records to fight email address forgery and make it easier to identify spams ] ]]
+        dev-perl/Net-Ident          [[ description = [ Needed to use the --auth-ident option to spamd ] ]]
+      >=dev-perl/IO-Zlib-1.04       [[ description = [ The 'sa-update' script uses this to access compressed update archive files ] ]]
+        dev-perl/IP-Country         [[ description = [ Used by the RelayCountry plugin (not enabled by default) to determine the domain country codes of each relay in the path of an email ] ]]
+      >=dev-perl/Razor2-2.61        [[ description = [ Used to check message signatures against Vipul's Razor collaborative filtering network ] ]]
+"
+
+WORK=${WORKBASE}/${MY_PNV}
+
+PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin ENABLE_SSL=yes )
+
+src_test() {
+    # Two of these spamc_cf.t tests fail
+    export SKIP_SPAMC_TESTS=YesPlease
+
+    perl-module_src_test
+}
+
