@@ -1,0 +1,16 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="FDALY"
+require perl-module
+
+SUMMARY="Make sure you didn't emit any warnings while testing"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Test-Tester"
+
