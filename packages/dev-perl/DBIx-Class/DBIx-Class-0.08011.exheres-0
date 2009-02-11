@@ -1,0 +1,26 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="RIBASUSHI"
+require perl-module
+
+SUMMARY="Extensible and flexible object <-> relational mapper"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Carp-Clan
+        dev-perl/Class-Accessor-Grouped
+        dev-perl/Class-C3
+        dev-perl/Class-C3-Componentised
+        dev-perl/Class-Inspector
+        dev-perl/DBI
+        dev-perl/Data-Page
+        dev-perl/JSON-Any
+        dev-perl/Module-Find
+        dev-perl/SQL-Abstract
+        dev-perl/SQL-Abstract-Limit
+        dev-perl/Scope-Guard"
