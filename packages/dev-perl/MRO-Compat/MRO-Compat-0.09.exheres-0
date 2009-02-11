@@ -1,0 +1,18 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="BLBLACK"
+
+require perl-module
+
+SUMMARY="mro::* interface compatibility for Perls < 5.9.5"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+      >=dev-lang/perl-5.6.0:=
+"
+
