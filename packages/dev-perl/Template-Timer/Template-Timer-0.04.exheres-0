@@ -1,0 +1,15 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="PETDANCE"
+require perl-module
+
+SUMMARY="Rudimentary profiling for Template Toolkit"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Template-Toolkit"
