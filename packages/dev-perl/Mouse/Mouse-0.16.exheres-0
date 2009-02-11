@@ -1,0 +1,25 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SARTAK"
+require perl-module
+
+SUMMARY="A lightweight version of the Moose framework"
+DESCRIPTION="Moose is wonderful. Unfortunately, it's a little slow. Though
+significant progress has been made over the years, the compile time penalty
+is a non-starter for some applications. Mouse aims to alleviate this by
+providing a subset of Moose's functionality, faster. In particular, 'has' in
+Moose is missing only a few expert-level features. We're also going as light
+on dependencies as possible. Class::Method::Modifiers or Data::Util is
+required if you want support for 'before', 'after', and 'around'"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    post,suggested:
+        || (
+            dev-perl/Data-Util
+            dev-perl/Class-Method-Modifiers
+           )"
