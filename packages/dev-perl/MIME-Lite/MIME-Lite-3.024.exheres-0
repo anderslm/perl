@@ -1,0 +1,18 @@
+# Copyright 2009 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="RJBS"
+
+require perl-module
+
+SUMMARY="Low-calorie MIME generator"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+      >=dev-perl/Email-Date-Format-1.000
+"
+
