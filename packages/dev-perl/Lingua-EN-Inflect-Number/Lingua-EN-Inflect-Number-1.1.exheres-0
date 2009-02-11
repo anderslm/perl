@@ -1,0 +1,15 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SIMON"
+require perl-module
+
+SUMMARY="Force number of words to singular or plural"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Lingua-EN-Inflect"
