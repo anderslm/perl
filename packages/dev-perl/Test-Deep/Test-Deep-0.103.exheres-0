@@ -1,0 +1,16 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="FDALY"
+require perl-module
+
+SUMMARY="Extremely flexible deep comparison"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Test-NoWarnings
+        dev-perl/Test-Tester"
