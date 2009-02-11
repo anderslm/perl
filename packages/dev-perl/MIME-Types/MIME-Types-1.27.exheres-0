@@ -15,7 +15,7 @@ wish to get access to the mime.types files, which are available on various
 places in UNIX and Linux systems, then have a look at File::TypeInfo."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
