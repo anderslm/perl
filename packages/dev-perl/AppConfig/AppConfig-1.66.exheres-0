@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="A perl5 module for reading configuration files and parsing command line arguments"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES=""
 

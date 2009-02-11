@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Setup a CGI enviroment from a HTTP::Request"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
     build+run:

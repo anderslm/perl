@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Automated accessor generation"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES=""
 

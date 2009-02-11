@@ -7,5 +7,5 @@ require perl-module
 SUMMARY="Checks intelligently if files have change"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 

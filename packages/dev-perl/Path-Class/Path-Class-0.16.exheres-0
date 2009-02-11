@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Cross-platform path specification manipulation"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES=""
 

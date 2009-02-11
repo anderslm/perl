@@ -7,5 +7,5 @@ require perl-module
 SUMMARY="Various IO module"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 

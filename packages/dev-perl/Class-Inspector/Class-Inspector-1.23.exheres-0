@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Get information about a class and its structure"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES=""
 

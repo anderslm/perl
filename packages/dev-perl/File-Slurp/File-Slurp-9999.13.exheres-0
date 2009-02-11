@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Efficient Reading/Writing of Complete Files"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""

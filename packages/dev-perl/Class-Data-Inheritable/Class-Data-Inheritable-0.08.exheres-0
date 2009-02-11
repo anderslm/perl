@@ -7,5 +7,5 @@ require perl-module
 SUMMARY="Inheritable, overridable class data"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 

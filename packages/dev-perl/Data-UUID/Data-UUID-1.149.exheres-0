@@ -14,7 +14,7 @@ generated until 3400 CE."
 
 LICENCES="BSD [[ note = [ BSD is what upstream labels it, see ${HOMEPAGE}/${PNV}/LICENSE though... ] ]]"
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
