@@ -1,0 +1,12 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="DCONWAY"
+require perl-module
+
+SUMMARY="Convert singular to plural. Select 'a' or 'an'"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
