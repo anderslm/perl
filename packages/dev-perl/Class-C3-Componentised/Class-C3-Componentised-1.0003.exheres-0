@@ -1,0 +1,18 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="ASH"
+require perl-module
+
+SUMMARY="Load mix-ins or components to your C3-based class"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Class-C3
+        dev-perl/Class-Inspector
+    build:
+        dev-perl/Test-Exception"
