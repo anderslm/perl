@@ -7,7 +7,7 @@ require perl-module
 SUMMARY="Ease testing test modules built with Test::Builder"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="" # Test::Builder
 
