@@ -1,0 +1,21 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="MARKOV"
+require perl-module
+
+SUMMARY="Definition of MIME types"
+DESCRIPTION="MIME types are used in MIME compliant lines, for instance as part
+of e-mail and HTTP traffic, to indicate the type of content which is
+transmitted. Sometimes real knowledge about a mime-type is need. This module
+maintains a set of MIME::Type objects, which each describe one known mime type.
+There are many types defined by RFCs and vendors, so the list is long but not
+complete. Please don't hestitate to ask to add additional information. If you
+wish to get access to the mime.types files, which are available on various
+places in UNIX and Linux systems, then have a look at File::TypeInfo."
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
