@@ -1,0 +1,20 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+MODULE_AUTHOR="SBURKE"
+require perl-module
+
+SUMMARY="US-ASCII transliterations of Unicode text"
+DESCRIPTION="
+It often happens that you have non-Roman text data in Unicode, but you can't display
+it - usually because you're trying to show it via an application that doesn't support
+Unicode, or because the fonts you need aren't accessible.
+Text::Unidecode provides a function that gives you an attempt at *transliteration*
+- i. e., conveying, in Roman letters, the pronunciation expressed by the text in
+some other writing system.
+"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+DEPENDENCIES=""
