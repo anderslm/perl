@@ -1,14 +1,14 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="phish"
+MODULE_AUTHOR="PHISH"
 
 require perl-module
 
 SUMMARY="Routines and Constants common for XML::LibXML and XML::GDOME"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
