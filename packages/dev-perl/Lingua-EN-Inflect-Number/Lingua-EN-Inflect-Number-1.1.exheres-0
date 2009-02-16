@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="SIMON"
-require perl-module
+require perl-module [ module_author=SIMON ]
 
 SUMMARY="Force number of words to singular or plural"
 

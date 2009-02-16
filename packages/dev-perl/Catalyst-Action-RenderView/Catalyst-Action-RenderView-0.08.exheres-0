@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="MRAMBERG"
-require perl-module
+require perl-module [ module_author=MRAMBERG ]
 
 SUMMARY="Sensible default end action for Catalyst"
 

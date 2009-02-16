@@ -1,8 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="KWILLIAMS"
-require perl-module
+require perl-module [ module_author=KWILLIAMS ]
 
 SUMMARY="Compile and link C code for Perl modules"
 DESCRIPTION="This module can build the C portions of Perl modules by invoking

@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="RCAPUTO"
-require perl-module
+require perl-module [ module_author=RCAPUTO ]
 
 SUMMARY="Reusable tests for POE::Loop"
 DESCRIPTION="POE::Test::Loops contains one function, generate(), which will

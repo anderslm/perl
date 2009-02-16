@@ -1,8 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="TOMHUGHES"
-require perl-module
+require perl-module [ module_author=TOMHUGHES ]
 
 SUMMARY="IO:: style interface to Compress::Zlib"
 DESCRIPTION="IO::Zlib provides an IO:: style interface to Compress::Zlib and

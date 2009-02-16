@@ -1,9 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="BLBLACK"
-
-require perl-module
+require perl-module [ module_author=BLBLACK ]
 
 SUMMARY="mro::* interface compatibility for Perls < 5.9.5"
 

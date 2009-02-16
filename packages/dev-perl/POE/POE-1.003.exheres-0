@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="RCAPUTO"
-require perl-module
+require perl-module [ module_author=RCAPUTO ]
 
 SUMMARY="Portable multitasking and networking framework for Perl"
 DESCRIPTION="POE is a framework for cooperative, event driven multitasking and

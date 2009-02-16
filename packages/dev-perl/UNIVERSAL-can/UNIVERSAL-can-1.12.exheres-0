@@ -1,9 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="CHROMATIC"
-
-require perl-module
+require perl-module [ module_author=CHROMATIC ]
 
 SUMMARY="Hack around people calling UNIVERSAL::can() as a function"
 

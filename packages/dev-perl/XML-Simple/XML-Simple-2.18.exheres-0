@@ -3,8 +3,7 @@
 # Based upon 'XML-Simple-2.18.ebuild' from Gentoo which is:
 #    Copyright 1999-2008 Gentoo Foundation
 
-MODULE_AUTHOR="GRANTM"
-require perl-module
+require perl-module [ module_author=GRANTM ]
 
 SUMMARY="XML::Simple - Easy API to read/write XML (esp config files)"
 

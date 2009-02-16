@@ -1,8 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="RBS"
-require perl-module
+require perl-module [ module_author=RBS ]
 
 SUMMARY="Perform diffs on files and record sets"
 DESCRIPTION="diff() provides a basic set of services akin to the GNU diff

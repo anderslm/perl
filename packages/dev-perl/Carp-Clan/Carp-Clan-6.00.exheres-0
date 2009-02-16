@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="JJORE"
-require perl-module
+require perl-module [ module_author=JJORE ]
 
 SUMMARY="Report errors from perspective of caller of a 'clan' of modules"
 

@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="NUFFIN"
-require perl-module
+require perl-module [ module_author=NUFFIN ]
 
 SUMMARY="Visitor style traversal of Perl data structures"
 DESCRIPTION="This module is a simple visitor implementation for Perl values.

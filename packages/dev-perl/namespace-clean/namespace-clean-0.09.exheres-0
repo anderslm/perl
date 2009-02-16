@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="FLORA"
-require perl-module
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="Keep imports and functions out of your namespace"
 DESCRIPTION="When you define a function, or import one, into a Perl package,

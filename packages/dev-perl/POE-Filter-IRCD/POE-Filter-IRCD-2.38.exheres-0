@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="BINGOS"
-require perl-module
+require perl-module [ module_author=BINGOS ]
 
 SUMMARY="A POE-based parser for the IRC protocol"
 DESCRIPTION="POE::Filter::IRCD provides a convenient way of parsing and

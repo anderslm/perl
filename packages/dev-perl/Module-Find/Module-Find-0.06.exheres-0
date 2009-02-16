@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="CRENZ"
-require perl-module
+require perl-module [ module_author=CRENZ ]
 
 SUMMARY="Find and use installed modules in a (sub)category"
 

@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="MARKOV"
-require perl-module
+require perl-module [ module_author=MARKOV ]
 
 SUMMARY="Definition of MIME types"
 DESCRIPTION="MIME types are used in MIME compliant lines, for instance as part

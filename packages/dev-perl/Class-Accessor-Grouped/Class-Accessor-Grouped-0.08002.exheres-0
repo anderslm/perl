@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of GNU General Public License v2
 
-MODULE_AUTHOR="CLACO"
-require perl-module
+require perl-module [ module_author=CLACO ]
 
 SUMMARY="Lets you build groups of accessors"
 

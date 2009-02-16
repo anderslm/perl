@@ -1,8 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="ADAMK"
-require perl-module
+require perl-module [ module_author=ADAMK ]
 
 SUMMARY="Provides an interface to ZIP archive files"
 DESCRIPTION="The Archive::Zip module allows a Perl program to create,

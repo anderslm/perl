@@ -1,8 +1,7 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="CORION"
-require perl-module
+require perl-module [ module_author=CORION ]
 
 SUMMARY="Checks intelligently if files have change"
 

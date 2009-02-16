@@ -1,8 +1,7 @@
 # Copyright 2009 Mike Kelly
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="MSCHILLI"
-require perl-module
+require perl-module [ module_author=MSCHILLI ]
 
 SUMMARY="Log4j implementation for Perl"
 DESCRIPTION="

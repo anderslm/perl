@@ -1,8 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="MLEHMANN"
-require perl-module
+require perl-module [ module_author=MLEHMANN ]
 
 SUMMARY="JSON serialising/deserialising, done correctly and fast"
 

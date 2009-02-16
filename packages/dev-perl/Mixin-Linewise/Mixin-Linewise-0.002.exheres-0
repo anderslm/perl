@@ -3,8 +3,7 @@
 # Based in part upon 'Mixin-Linewise-0.002.ebuild' from Gentoo, which is:
 #     Copyright 1999-2008 Gentoo Foundation.
 
-MODULE_AUTHOR="RJBS"
-require perl-module
+require perl-module [ module_author=RJBS ]
 
 SUMMARY="Write your linewise code for handles; this does the rest"
 

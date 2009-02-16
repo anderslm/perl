@@ -1,9 +1,7 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="ARISTOTLE"
-
-require perl-module
+require perl-module [ module_author=ARISTOTLE ]
 
 SUMMARY="No-fuss generation of Atom syndication feeds"
 DESCRIPTION="

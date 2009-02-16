@@ -1,9 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-MODULE_AUTHOR="KANE"
-
-require perl-module
+require perl-module [ module_author=KANE ]
 
 SUMMARY="List all constants declared in a package"
 DESCRIPTION="
