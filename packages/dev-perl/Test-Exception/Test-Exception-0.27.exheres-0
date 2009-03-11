@@ -11,7 +11,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        >=dev-perl/Sub-Uplevel-0.18
-        >=dev-perl/Test-Harness-2.03"
+        >=dev-lang/perl-5.8.9
+        >=dev-perl/Sub-Uplevel-0.18"
 #       >=dev-perl/Test-Builder
 
