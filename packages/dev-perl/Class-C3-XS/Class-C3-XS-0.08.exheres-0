@@ -1,0 +1,12 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=BLBLACK ]
+
+SUMMARY="XS speedups for Class::C3"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
