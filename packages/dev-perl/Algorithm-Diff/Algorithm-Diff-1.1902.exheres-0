@@ -1,7 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=NEDKONZ ]
+require perl-module [ module_author=TYEMQ ]
 
 SUMMARY="Compute intelligent differences between two files / lists"
 DESCRIPTION="Provides access from perl to different algorithms for calcuting

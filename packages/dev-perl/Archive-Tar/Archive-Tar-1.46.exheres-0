@@ -19,8 +19,14 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
       >=dev-perl/Compress-Zlib-2.012
+      >=dev-perl/IO-Compress-Base-2.012
+      >=dev-perl/IO-Compress-Bzip2-2.012
+      >=dev-perl/IO-Compress-Zlib-2.012
         dev-perl/IO-Zlib
-        dev-perl/Package-Constants
+        || (
+            dev-perl/Package-Constants
+            dev-lang/perl:5.10
+        )
     post,suggested:
         dev-perl/Text-Diff
 "

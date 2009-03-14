@@ -10,6 +10,12 @@ PLATFORMS="~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
+    build:
+        dev-perl/Class-Trigger
+        dev-perl/DBD-SQLite
+        dev-perl/DBIx-ContextualFetch
+        dev-perl/Test-Deep
+        dev-perl/Test-Exception
     build+run:
         dev-perl/Carp-Clan
         dev-perl/Class-Accessor-Grouped
@@ -20,6 +26,7 @@ DEPENDENCIES="
         dev-perl/Data-Page
         dev-perl/JSON-Any
         dev-perl/Module-Find
+        >=dev-perl/Scalar-List-Utils-1.19
         dev-perl/SQL-Abstract
         dev-perl/SQL-Abstract-Limit
         dev-perl/Scope-Guard"
