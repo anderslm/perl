@@ -19,7 +19,7 @@ DEPENDENCIES="
         dev-perl/File-Modified
       >=dev-perl/libwww-perl-5.811
       >=dev-perl/HTTP-Request-AsCGI-0.5
-      >=dev-perl/HTTP-Body-0.9
+      >=dev-perl/HTTP-Body-1.04
       >=dev-perl/Module-Pluggable-3.01
       >=dev-perl/Path-Class-0.09
         dev-perl/Text-Balanced

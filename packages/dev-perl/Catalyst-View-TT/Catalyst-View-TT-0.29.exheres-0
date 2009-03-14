@@ -12,6 +12,7 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
+        dev-perl/MRO-Compat
         dev-perl/Path-Class
         dev-perl/Template-Toolkit
         dev-perl/Template-Timer"

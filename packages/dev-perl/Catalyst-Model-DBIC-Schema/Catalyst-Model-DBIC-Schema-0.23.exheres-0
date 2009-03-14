@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BOGDAN ]
+require perl-module [ module_author=MSTROUT ]
 
 SUMMARY="DBIx::Class::Schema Model Class for Catalyst"
 
@@ -13,6 +13,8 @@ DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
         dev-perl/Class-Accessor [[ note = [ For Class::Accessor::Fast ] ]]
+        dev-perl/Class-C3
+        dev-perl/Class-C3-XS
         dev-perl/Class-Data-Accessor
         dev-perl/DBIx-Class
         dev-perl/UNIVERSAL-require"
