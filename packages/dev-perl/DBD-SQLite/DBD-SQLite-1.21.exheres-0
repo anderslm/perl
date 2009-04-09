@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MSERGEANT ]
+require perl-module [ module_author=ADAMK ]
 
 SUMMARY="Self Contained RDBMS in a DBI Driver"
 DESCRIPTION="SQLite is a public domain RDBMS database engine that you can find

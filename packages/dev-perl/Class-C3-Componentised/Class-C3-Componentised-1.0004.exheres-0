@@ -13,5 +13,6 @@ DEPENDENCIES="
     build+run:
         dev-perl/Class-C3
         dev-perl/Class-Inspector
+        dev-perl/MRO-Compat
     build:
         dev-perl/Test-Exception"
