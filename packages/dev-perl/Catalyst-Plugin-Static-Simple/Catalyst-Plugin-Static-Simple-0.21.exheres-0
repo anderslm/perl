@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=AGRUNDMA ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="Make serving static pages in Catalyst painless"
 DESCRIPTION="The Static::Simple plugin is designed to make serving static
@@ -20,4 +20,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
-        dev-perl/MIME-Types"
+        >=dev-perl/MIME-Types-1.25
+        dev-perl/MRO-Compat"
