@@ -21,10 +21,11 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS="ipv6"
 
+# XXX SSL-enabled spamassassin: PERL_MODULE_SRC_CONFIGURE_PARAMS=( ENABLE_SSL=yes ) & dev-libs/openssl
+# This breaks almost all tests here, with missing dependencies
 DEPENDENCIES="
     build+run:
       >=dev-lang/perl-5.6.1:=
-        dev-libs/openssl
         dev-perl/Digest-SHA1
       >=dev-perl/HTML-Parser-3.43
       >=dev-perl/Net-DNS-0.34
@@ -46,7 +47,7 @@ DEPENDENCIES="
 
 WORK=${WORKBASE}/${MY_PNV}
 
-PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin ENABLE_SSL=yes )
+PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin )
 
 src_test() {
     # Two of these spamc_cf.t tests fail
