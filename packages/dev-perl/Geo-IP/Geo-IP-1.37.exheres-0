@@ -13,5 +13,3 @@ DEPENDENCIES="
     build+run:
         >=net-libs/GeoIP-1.4.5
 "
-
-#myconf="LIBS=-L/usr/$(get_libdir)"
