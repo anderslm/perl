@@ -17,7 +17,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Mouse
+        dev-perl/Any-Moose
         dev-perl/namespace-clean
         dev-perl/Task-Weaken
         dev-perl/Tie-ToObject
