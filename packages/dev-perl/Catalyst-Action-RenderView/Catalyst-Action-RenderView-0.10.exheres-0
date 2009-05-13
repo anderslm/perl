@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MRAMBERG ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="Sensible default end action for Catalyst"
 
@@ -12,5 +12,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
-        dev-perl/Data-Visitor
+        >=dev-perl/Data-Visitor-0.24
         dev-perl/MRO-Compat"
