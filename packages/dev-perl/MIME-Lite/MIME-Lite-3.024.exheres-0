@@ -11,6 +11,6 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-      >=dev-perl/Email-Date-Format-1.000
+        dev-perl/Email-Date-Format[>=1.000]
 "
 

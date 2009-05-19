@@ -10,5 +10,5 @@ PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
     build:
-      >=dev-perl/Test-Exception-0.15"
+        dev-perl/Test-Exception[>=0.15]"
 

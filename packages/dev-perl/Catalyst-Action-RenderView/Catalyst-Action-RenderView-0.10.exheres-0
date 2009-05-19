@@ -12,5 +12,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
-        >=dev-perl/Data-Visitor-0.24
+        dev-perl/Data-Visitor[>=0.24]
         dev-perl/MRO-Compat"

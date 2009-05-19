@@ -11,5 +11,5 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        >=net-libs/GeoIP-1.4.5
+        net-libs/GeoIP[>=1.4.5]
 "

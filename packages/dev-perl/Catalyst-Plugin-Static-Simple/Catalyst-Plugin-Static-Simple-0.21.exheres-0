@@ -20,5 +20,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
-        >=dev-perl/MIME-Types-1.25
+        dev-perl/MIME-Types[>=1.25]
         dev-perl/MRO-Compat"

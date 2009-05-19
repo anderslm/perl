@@ -18,15 +18,15 @@ DEPENDENCIES="
         dev-perl/Test-Exception
     build+run:
         dev-perl/Carp-Clan
-      >=dev-perl/Class-Accessor-Grouped-0.08003
+        dev-perl/Class-Accessor-Grouped[>=0.08003]
         dev-perl/Class-C3
-      >=dev-perl/Class-C3-Componentised-1.0004
+        dev-perl/Class-C3-Componentised[>=1.0004]
         dev-perl/Class-Inspector
         dev-perl/DBI
         dev-perl/Data-Page
         dev-perl/JSON-Any
         dev-perl/Module-Find
-      >=dev-perl/Scalar-List-Utils-1.19
-      >=dev-perl/SQL-Abstract-1.51
+        dev-perl/Scalar-List-Utils[>=1.19]
+        dev-perl/SQL-Abstract[>=1.51]
         dev-perl/SQL-Abstract-Limit
         dev-perl/Scope-Guard"

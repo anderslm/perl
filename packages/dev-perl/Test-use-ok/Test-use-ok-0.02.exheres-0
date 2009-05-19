@@ -11,6 +11,6 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-      >=dev-lang/perl-5.0005:=
+        dev-lang/perl:=[>=5.0005]
 "
 

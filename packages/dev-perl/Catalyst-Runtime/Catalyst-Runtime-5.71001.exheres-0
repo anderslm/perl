@@ -14,17 +14,17 @@ DEPENDENCIES="
         dev-perl/CGI-Simple
         dev-perl/Class-Accessor
         dev-perl/Class-Data-Inheritable
-      >=dev-perl/Class-Inspector-1.06
+        dev-perl/Class-Inspector[>=1.06]
         dev-perl/Data-Dump
         dev-perl/File-Modified
-      >=dev-perl/libwww-perl-5.811
-      >=dev-perl/HTTP-Request-AsCGI-0.5
-      >=dev-perl/HTTP-Body-1.04
-      >=dev-perl/Module-Pluggable-3.01
-      >=dev-perl/Path-Class-0.09
+        dev-perl/libwww-perl[>=5.811]
+        dev-perl/HTTP-Request-AsCGI[>=0.5]
+        dev-perl/HTTP-Body[>=1.04]
+        dev-perl/Module-Pluggable[>=3.01]
+        dev-perl/Path-Class[>=0.09]
         dev-perl/Text-Balanced
-      >=dev-perl/Text-SimpleTable-0.03
+        dev-perl/Text-SimpleTable[>=0.03]
         dev-perl/Time-HiRes
-      >=dev-perl/Tree-Simple-1.15
+        dev-perl/Tree-Simple[>=1.15]
         dev-perl/Tree-Simple-VisitorFactory
 "

@@ -10,9 +10,9 @@ PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
     build+run:
-      >=dev-perl/File-Temp-0.14
+        dev-perl/File-Temp[>=0.14]
         dev-perl/IO
         dev-perl/libwww-perl
-      >=dev-perl/YAML-0.39
+        dev-perl/YAML[>=0.39]
 "
 
