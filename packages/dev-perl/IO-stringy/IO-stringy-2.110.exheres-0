@@ -6,7 +6,7 @@ require perl-module [ module_author=DSKOLL ]
 SUMMARY="I/O on in-core objects like strings and arrays"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
