@@ -10,4 +10,4 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Mouse[>=0.20]"
+        dev-perl/Mouse[>=0.21]"
