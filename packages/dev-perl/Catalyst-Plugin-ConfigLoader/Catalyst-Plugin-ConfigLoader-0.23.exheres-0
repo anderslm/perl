@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BRICAS ]
+require perl-module [ module_author=MRAMBERG ]
 
 SUMMARY="Load config files of various types in Catalyst"
 DESCRIPTION="This module will attempt to load find and load a configuration
@@ -16,5 +16,5 @@ DEPENDENCIES="
     build+run:
         dev-perl/Catalyst-Runtime
         dev-perl/Config-Any
-        dev-perl/Data-Visitor
+        dev-perl/Data-Visitor[>=0.24]
         dev-perl/MRO-Compat"
