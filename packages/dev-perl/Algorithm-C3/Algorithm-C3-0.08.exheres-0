@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BLBLACK ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="A module for merging hierarchies using the C3 algorithm"
 
