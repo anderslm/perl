@@ -11,4 +11,5 @@ PLATFORMS="~amd64 ~x86"
 DEPENDENCIES="
     build+run:
         dev-perl/version
+        dev-perl/IO-stringy
 "
