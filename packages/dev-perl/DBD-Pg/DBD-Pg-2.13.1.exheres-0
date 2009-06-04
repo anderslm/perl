@@ -1,0 +1,17 @@
+# Copyright 2008, 2009 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author="TURNSTEP" ]
+
+SUMMARY="PostgreSQL database driver for the DBI module"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-lang/perl[>=5.6.1]
+        dev-perl/DBI[>=1.52]
+"
+
