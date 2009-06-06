@@ -18,7 +18,7 @@ DOWNLOADS="mirror://apache/${PN}/source/${MY_PNV}.tar.bz2"
 
 LICENCES="Apache-2.0"
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS="ipv6"
 
 # XXX SSL-enabled spamassassin: PERL_MODULE_SRC_CONFIGURE_PARAMS=( ENABLE_SSL=yes ) & dev-libs/openssl
