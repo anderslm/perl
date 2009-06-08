@@ -3,4 +3,7 @@
 .*swp
 #*#
 .project
-.cache
+
+/.cache
+/metadata/cache
+
