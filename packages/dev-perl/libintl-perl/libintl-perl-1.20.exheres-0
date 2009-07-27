@@ -1,0 +1,30 @@
+# Copyright 2009 Sterling X. Winter <sterling.winter@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GUIDO ]
+
+SUMMARY="Uniforum message translation for Perl"
+DESCRIPTION="
+libintl-perl provides Uniforum message translation for Perl. It is the de-facto
+standard for internationalization (i18n) and localization (l10n) of software
+written in Perl. Its main features are:
+  * both a one-to-one port of the GNU gettext runtime library in Perl
+    (Locale::Messages) and a perlish interface (Locale::TextDomain) that mimics
+    the common _() C preprocessor macro flavored with Perl
+  * transparent charset conversion and UTF-8 support for all perl versions
+    including 5.004
+  * utility functions for locale settings in server applications
+  * extensive documentation including a sample application
+"
+HOMEPAGE="http://guido-flohr.net/projects/libintl-perl/ ${HOMEPAGE}"
+
+LICENCES="LGPL-2.1"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
+BUGS_TO="sterling.winter@gmail.com"
+REMOTE_IDS="freshmeat:${PN}"
+
