@@ -1,7 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=KWILLIAMS ]
+require perl-module [ module_author=DAGOLDEN ]
 
 SUMMARY="Converts Perl XS code into C code"
 DESCRIPTION="ExtUtils::ParseXS will compile XS code into C code by embedding the
