@@ -1,6 +1,10 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
+MY_PNV="${PNV%00}" # PNV is zero-padded because of perl/cpan's stupid
+                   # versioning scheme
+WORK="${WORKBASE}/${MY_PNV}"
+
 require perl-module [ module_author=MLEHMANN ]
 
 SUMMARY="JSON serialising/deserialising, done correctly and fast"
@@ -9,4 +13,7 @@ SLOT="0"
 PLATFORMS="~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    build+run:
+        dev-perl/common-sense"
+
