@@ -20,5 +20,5 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Compress-Zlib"
+        dev-perl/Compress-Raw-Zlib"
 
