@@ -1,0 +1,13 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+# BLEH!
+
+require perl-module [ module_author=MLEHMANN ]
+
+SUMMARY="save a tree AND a kitten, use common::sense"
+
+SLOT=0
+PLATFORMS="~x86"
+MYOPTIONS=""
+DEPENDENCIES=""
+
