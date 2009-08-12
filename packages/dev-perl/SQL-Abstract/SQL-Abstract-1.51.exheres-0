@@ -9,4 +9,8 @@ SLOT="0"
 PLATFORMS="~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Deep
+        dev-perl/Test-Exception
+        dev-perl/Test-Warn"
