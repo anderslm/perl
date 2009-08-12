@@ -7,4 +7,8 @@ SUMMARY="A factory object for dispensing Visitor objects"
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
+DEPENDENCIES="
+    build+run:
+        dev-perl/Test-Exception
+        dev-perl/Tree-Simple"
 
