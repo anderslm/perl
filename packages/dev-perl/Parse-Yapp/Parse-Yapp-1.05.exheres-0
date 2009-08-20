@@ -1,0 +1,19 @@
+# Copyright 2009 Sterling X. Winter <sterling.winter@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FDESAR ]
+
+SUMMARY="Perl extension for generating and using LALR parsers"
+DESCRIPTION="
+Parse::Yapp (Yet Another Perl Parser compiler) is a collection of modules that
+let you generate and use yacc like thread safe (reentrant) parsers with perl
+object oriented interface. The script yapp is a front-end to the Parse::Yapp
+module and let you easily create a Perl OO parser from an input grammar file.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
