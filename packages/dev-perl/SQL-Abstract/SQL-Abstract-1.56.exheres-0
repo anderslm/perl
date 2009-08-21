@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MSTROUT ]
+require perl-module [ module_author=RIBASUSHI ]
 
 SUMMARY="Generate SQL from Perl data structures"
 
@@ -11,6 +11,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build:
+        dev-perl/Clone
         dev-perl/Test-Deep
         dev-perl/Test-Exception
         dev-perl/Test-Warn"
