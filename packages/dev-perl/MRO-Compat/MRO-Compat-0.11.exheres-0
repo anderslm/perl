@@ -1,7 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BLBLACK ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="mro::* interface compatibility for Perls < 5.9.5"
 
@@ -12,6 +12,6 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
       dev-lang/perl:=[>=5.6.0]
-      dev-perl/Class-C3
+      dev-perl/Class-C3[>=0.20]
 "
 
