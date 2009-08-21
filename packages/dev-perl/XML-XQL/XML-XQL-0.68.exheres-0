@@ -21,5 +21,6 @@ DEPENDENCIES="
         dev-perl/Parse-Yapp
         dev-perl/XML-DOM[>=1.29]
         dev-perl/XML-Parser[>=2.30]
+        dev-perl/XML-RegExp
 "
 
