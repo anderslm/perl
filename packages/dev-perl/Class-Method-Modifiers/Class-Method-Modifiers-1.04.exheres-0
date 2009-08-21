@@ -11,5 +11,4 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/MRO-Compat
         dev-perl/Test-Exception"
