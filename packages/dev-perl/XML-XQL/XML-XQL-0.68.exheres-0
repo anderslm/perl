@@ -11,7 +11,7 @@ http://www.w3.org/TandS/QL/QL98/pp/xql.html
 "
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
