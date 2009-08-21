@@ -1,0 +1,14 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=NUFFIN ]
+SUMMARY="Use Hash::Util::FieldHash or ties, depending on availability"
+
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-use-ok"
+
