@@ -1,7 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=KWILLIAMS ]
+require perl-module [ module_author=DAGOLDEN ]
 
 SUMMARY="Compile and link C code for Perl modules"
 DESCRIPTION="This module can build the C portions of Perl modules by invoking
@@ -14,4 +14,3 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""
