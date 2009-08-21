@@ -8,5 +8,7 @@ SUMMARY="Automated accessor generation"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    build+run:
+        dev-perl/Sub-Name"
 
