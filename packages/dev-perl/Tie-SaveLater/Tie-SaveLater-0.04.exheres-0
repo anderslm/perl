@@ -1,0 +1,16 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DANKOGAI ]
+
+SUMMARY="A base class for tie modules that \"save later\""
+DESCRIPTION="
+Tie::SaveLater make you easy to write a modules that \"save later\",
+that is, save on untie.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
