@@ -1,0 +1,15 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DROLSKY ]
+
+SUMMARY="A date and time object"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/DateTime-Locale[>=0.41]
+        dev-perl/DateTime-TimeZone[>=0.95]
+"
