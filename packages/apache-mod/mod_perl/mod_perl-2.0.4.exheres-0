@@ -1,0 +1,80 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+# Based in part upon 'mod_perl-2.0.4-r1.ebuild' from Gentoo, which is:
+#     Copyright 1999-2009 Gentoo Foundation
+
+require perl-module
+
+SUMMARY="A persistent embedded Perl interpreter for Apache 2.x"
+DESCRIPTION="
+The Apache/Perl integration project brings together the full power of the Perl
+programming language and the Apache HTTP server. With mod_perl it is possible to
+write Apache modules entirely in Perl. In addition, the persistent interpreter
+embedded in the server avoids the overhead of starting an external interpreter
+and the penalty of Perl start-up time.
+"
+HOMEPAGE="http://perl.apache.org"
+DOWNLOADS="mirror://apache/perl/${PNV}.tar.gz"
+
+BUGS_TO="philantrop@exherbo.org"
+REMOTE_IDS="freshmeat:${PN} cpan:${PN}"
+
+UPSTREAM_CHANGELOG="${HOMEPAGE}/dist/${PN}-$(ever range 1-2)-current/Changes"
+UPSTREAM_DOCUMENTATION="${HOMEPAGE}/docs/$(ever range 1-2)/index.html [[ lang = en ]]"
+
+LICENCES="Apache-1.1"
+SLOT="2"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/CGI[>=3.45]
+        dev-perl/IO-Compress[>=2.017]
+        www-servers/apache[>=2.2.12][apache_modules:authn_file][apache_modules:authz_groupfile][apache_modules:authn_default][apache_modules:authz_default][apache_modules:authz_owner][apache_modules:authz_user]
+"
+
+DEFAULT_SRC_PREPARE_PATCHES=(
+    -p0 "${FILES}"/${PNV}-sneak-tmpdir.patch
+    -p3 "${FILES}"/CVE-2009-0796.patch
+)
+
+DEFAULT_SRC_INSTALL_PARAMS=(
+    DESTDIR=""
+    MODPERL_AP_LIBEXECDIR="${IMAGE}/usr/libexec/apache2/modules"
+    MODPERL_AP_INCLUDEDIR="${IMAGE}/usr/include/apache2"
+    MP_INST_APACHE2=1
+    INSTALLDIRS=vendor
+)
+
+src_configure() {
+    perl Makefile.PL \
+        PREFIX="${IMAGE}"/usr \
+        MP_TRACE=1 \
+        MP_DEBUG=1 \
+        MP_USE_DSO=1 \
+        MP_APXS=/usr/bin/apxs \
+        INSTALLDIRS=vendor </dev/null || die
+}
+
+src_test() {
+    sydboxcmd net/allow
+
+    TMPDIR="${TEMP}" HOME="${T}/" emake -j1 test
+}
+
+src_install() {
+    default
+
+    fixlocalpod
+
+    insinto /etc/apache2/modules.d
+    doins "${FILES}"/${PV}/apache2-mod_perl-startup.pl
+    doins "${FILES}"/${PV}/75_${PN}.conf
+    dodoc -r docs todo
+
+    # Fix paths.
+    for FILE in $(grep -lr paludis "${IMAGE}"/*|grep -v ".so"); do
+        sed -i -e "s:${IMAGE}:/:g" ${FILE}
+    done
+}
