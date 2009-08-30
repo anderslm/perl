@@ -1,0 +1,19 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GBARR ]
+
+SUMMARY="Lightweight Directory Access Protocol"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Authen-SASL[>=2.12]
+        dev-perl/Convert-ASN1[>=0.22]
+        dev-perl/IO-Socket-SSL[>=1.30]
+        dev-perl/MIME-Base64[>=3.08]
+        dev-perl/URI[>=1.40]
+        dev-perl/XML-SAX-Writer[>=0.52]
+"
