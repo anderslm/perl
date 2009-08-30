@@ -1,0 +1,15 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RJBS ]
+
+SUMMARY="build an Email::Simple object from scratch"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Email-Date-Format[>=1.002]
+        dev-perl/Email-Simple[>=2.005]
+"
