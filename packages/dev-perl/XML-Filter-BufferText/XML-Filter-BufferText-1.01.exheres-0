@@ -1,0 +1,16 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RBERJON ]
+
+SUMMARY="Filter to put all characters() in one event"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/HTML-Parser[>=3.62]
+        dev-perl/XML-SAX[>=0.96]
+        dev-perl/XML-SAX-Base[>=1.03]
+"
