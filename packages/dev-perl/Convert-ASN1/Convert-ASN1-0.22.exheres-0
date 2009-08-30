@@ -1,0 +1,19 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GBARR ]
+
+SUMMARY="ASN.1 Encode/Decode library"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
+src_prepare() {
+    # This test triggers a sydbox network violation for binding to 0.0.0.0 and
+    # I'm too dumb to fix it properly.
+    rm t/07io.t || die "removing test failed"
+
+    default
+}
