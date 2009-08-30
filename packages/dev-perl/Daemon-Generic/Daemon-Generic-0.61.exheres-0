@@ -1,0 +1,16 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MUIR ]
+
+SUMMARY="framework to provide start/stop/reload for a daemon"
+DOWNLOADS="${DOWNLOADS/${PN}/modules/${PN}}"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/File-Flock[>=2008.01]
+        dev-perl/File-Slurp[>=9999.13]
+"
