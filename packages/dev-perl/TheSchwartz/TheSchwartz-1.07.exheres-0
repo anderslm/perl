@@ -1,0 +1,18 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=BRADFITZ ]
+
+SUMMARY="reliable job queue"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Data-ObjectDriver[>=0.06]
+"
+
+# The tests are known to fail.
+RESTRICT="test"
