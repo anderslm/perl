@@ -14,3 +14,8 @@ DEPENDENCIES="
         dev-perl/IO-stringy[>=2.110]
         dev-perl/MailTools[>=2.04]
 "
+
+src_test() {
+    sydboxcmd net/allow
+    perl-module_src_test
+}
