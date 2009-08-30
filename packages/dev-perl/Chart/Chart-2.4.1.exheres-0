@@ -1,0 +1,15 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=CHARTGRP ]
+
+SUMMARY="A series of charting modules"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/GD[>=2.44]
+        media-libs/gd[>=2.0.35][png]
+"
