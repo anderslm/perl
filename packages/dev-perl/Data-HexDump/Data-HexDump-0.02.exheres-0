@@ -1,0 +1,11 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FTASSIN ]
+
+SUMMARY="Hexadecimal Dumper"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
