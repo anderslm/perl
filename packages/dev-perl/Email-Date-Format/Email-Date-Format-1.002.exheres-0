@@ -6,8 +6,7 @@ require perl-module [ module_author=RJBS ]
 SUMMARY="Produce RFC 8822 date strings"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
-
