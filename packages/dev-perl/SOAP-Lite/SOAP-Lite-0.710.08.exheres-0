@@ -1,0 +1,25 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MKUTTER ]
+
+SUMMARY="Client and server side SOAP implementation"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Crypt-SSLeay[>=0.57]
+        dev-perl/IO-Socket-SSL[>=1.30]
+        dev-perl/MIME-Lite[>=3.024]
+        dev-perl/MIME-tools[>=5.427]
+        dev-perl/libwww-perl[>=5.812]
+        dev-perl/URI[>=1.40]
+        dev-perl/XML-Parser[>=2.36]
+"
+
+src_test() {
+    sydboxcmd net/allow
+    perl-module_src_test
+}
