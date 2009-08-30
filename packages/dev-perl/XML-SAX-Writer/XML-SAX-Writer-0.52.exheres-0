@@ -1,0 +1,16 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PERIGRIN ]
+
+SUMMARY="SAX2 Writer"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/XML-Filter-BufferText[>=1.01]
+        dev-perl/XML-NamespaceSupport[>=1.10]
+        dev-perl/Text-Iconv[>=1.7]
+"
