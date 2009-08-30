@@ -6,7 +6,7 @@ require perl-module [ module_author=MARKOV ]
 SUMMARY="MailTools is a set of Perl modules related to mail applications"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
