@@ -1,0 +1,20 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MUIR ]
+
+SUMMARY="file locking with flock"
+DOWNLOADS="${DOWNLOADS/${PN}/modules/${PN}}"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
+# The tests are slower than my dead grandmother!
+RESTRICT="test"
+
+src_test_expensive() {
+    emake -j1 test
+}
