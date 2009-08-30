@@ -1,0 +1,16 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RJBS ]
+
+SUMMARY="Email::MIME constructor for starting anew."
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Email-MIME[>=1.863]
+        dev-perl/Email-MIME-Modifier[>=1.444]
+        dev-perl/Email-Simple-Creator[>=1.424]
+"
