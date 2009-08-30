@@ -1,0 +1,36 @@
+From 9304069c1f059c5801493bd3e2ab61ff94ff00cd Mon Sep 17 00:00:00 2001
+From: Wulf C. Krueger <philantrop@exherbo.org>
+Date: Sun, 30 Aug 2009 16:13:22 +0200
+Subject: [PATCH] Remove installation script that breaks until XML-SAX has already been merged.
+ Upstream: Wants it as-is.
+
+---
+ Makefile.PL |   12 ------------
+ 1 files changed, 0 insertions(+), 12 deletions(-)
+
+diff --git a/Makefile.PL b/Makefile.PL
+index 98928b3..3efade2 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -36,18 +36,6 @@ sub MY::install {
+             $write_ini_ok = 1;
+         }
+     }
+-    
+-    if ($write_ini_ok) {
+-        $script =~ s/install :: (.*)$/install :: $1 install_sax_pureperl/m;
+-        $script .= <<"INSTALL";
+-
+-install_sax_pureperl :
+-\t\@\$(PERL) -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::PurePerl))->save_parsers()"
+-
+-INSTALL
+-
+-    }
+-
+     return $script;
+ }
+ 
+-- 
+1.6.4
+
