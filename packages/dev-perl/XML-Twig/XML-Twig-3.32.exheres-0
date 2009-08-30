@@ -1,0 +1,18 @@
+# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MIROD ]
+
+SUMMARY="A perl module for processing huge XML documents in tree mode"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/HTML-Parser[>=3.62]
+        dev-perl/HTML-Tagset[>=3.20]
+        dev-perl/libwww-perl[>=5.812]
+        dev-perl/URI[>=1.40]
+        dev-perl/XML-Parser[>=2.36]
+"
