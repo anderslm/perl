@@ -1,0 +1,24 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ARANDAL ]
+
+SUMMARY="framework for parsing Pod"
+DESCRIPTION="
+Pod::Simple is a Perl library for parsing text in the Pod (\"plain old documentation\") markup
+language that is typically used for writing documentation for Perl and for Perl modules. The Pod
+format is explained in the perlpod man page; the most common formatter is called \"perldoc\".
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        || (
+            dev-lang/perl:=[=5*&>=5.9.3]
+            dev-perl/Pod-Escapes[>=1.04]
+        )
+"
+
