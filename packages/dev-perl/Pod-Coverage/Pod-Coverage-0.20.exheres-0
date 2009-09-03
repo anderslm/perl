@@ -1,0 +1,21 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RCLAMP ]
+
+SUMMARY="Checks if the documentation of a module is comprehensive"
+DESCRIPTION="
+Developers hate writing documentation. They'd hate it even more if their computer tattled on them,
+but maybe they'll be even more thankful in the long run. Even if not, perlmodstyle tells you to, so
+you must obey.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Devel-Symdump[>=2.01]
+"
+

@@ -1,0 +1,16 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PETDANCE ]
+
+SUMMARY="Check for pod coverage in your distribution."
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Pod-Coverage
+"
+
