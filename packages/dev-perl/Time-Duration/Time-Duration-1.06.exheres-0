@@ -1,0 +1,15 @@
+# Copyright 2009 Ciaran McCreesh <ciaran.mccreesh@googlemail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=AVIF ]
+
+SUMMARY="Rounded or exact English expression of durations"
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Test-Pod
+        dev-perl/Test-Pod-Coverage
+"
