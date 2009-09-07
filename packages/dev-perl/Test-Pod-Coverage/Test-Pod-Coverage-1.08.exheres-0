@@ -6,7 +6,7 @@ require perl-module [ module_author=PETDANCE ]
 SUMMARY="Check for pod coverage in your distribution."
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

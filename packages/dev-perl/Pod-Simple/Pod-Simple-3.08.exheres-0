@@ -11,7 +11,7 @@ format is explained in the perlpod man page; the most common formatter is called
 "
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

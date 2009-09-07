@@ -9,7 +9,7 @@ This little package serves to access the symbol table of perl.
 "
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""

@@ -9,7 +9,7 @@ Check POD files for errors or warnings in a test file, using Pod::Simple to do t
 "
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
