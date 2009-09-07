@@ -13,5 +13,4 @@ HOMEPAGE+=" http://log4perl.sourceforge.net/"
 
 LICENCES="|| ( Artistic GPL GPL-2 GPL-3 )"
 SLOT="0"
-PLATFORMS="~amd64"
-
+PLATFORMS="~amd64 ~x86"
