@@ -5,7 +5,7 @@ require perl-module [ module_author=AVIF ]
 
 SUMMARY="Rounded or exact English expression of durations"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
