@@ -1,0 +1,13 @@
+# Copyright 2009 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author="CJM" ]
+
+SUMMARY="Getopt processing with both long and short options"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
