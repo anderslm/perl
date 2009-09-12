@@ -16,3 +16,14 @@ DEPENDENCIES="
         dev-perl/Net-IP
 "
 
+src_configure() {
+    # DNS query
+    sydboxcmd net/allow
+    perl-module_src_configure
+}
+
+src_test() {
+    # DNS query
+    sydboxcmd net/allow
+    perl-module_src_test
+}
