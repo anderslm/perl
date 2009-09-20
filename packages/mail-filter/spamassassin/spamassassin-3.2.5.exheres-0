@@ -25,7 +25,7 @@ MYOPTIONS="ipv6"
 # This breaks almost all tests here, with missing dependencies
 DEPENDENCIES="
     build+run:
-        dev-lang/perl:=[>=5.6.1]
+        dev-lang/perl:=[>=5.8.1]
         dev-perl/Digest-SHA1
         dev-perl/HTML-Parser[>=3.43]
         dev-perl/Net-DNS[>=0.34]
@@ -49,10 +49,20 @@ WORK=${WORKBASE}/${MY_PNV}
 
 PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin )
 
+src_prepare() {
+    default
+
+    # Fix sandbox violation.
+    sed -e "/map unlink/d" \
+        -e 's:\(-O$(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
+        -e 's:\($(CHMOD) $(PERM_RWX) $(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
+        -e 's:\($(MKPATH) $(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
+        -i Makefile.PL || die "sandbox sed failed"
+}
+
 src_test() {
     # Two of these spamc_cf.t tests fail
     export SKIP_SPAMC_TESTS=YesPlease
 
     perl-module_src_test
 }
-
