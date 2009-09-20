@@ -45,20 +45,11 @@ DEPENDENCIES="
         dev-perl/Razor2[>=2.61]           [[ description = [ Used to check message signatures against Vipul's Razor collaborative filtering network ] ]]
 "
 
+DEFAULT_SRC_PREPARE_PATCHES=( -p1 "${FILES}"/${PNV}-DESTDIR.patch )
+
 WORK=${WORKBASE}/${MY_PNV}
 
 PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin )
-
-src_prepare() {
-    default
-
-    # Fix sandbox violation.
-    sed -e "/map unlink/d" \
-        -e 's:\(-O$(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
-        -e 's:\($(CHMOD) $(PERM_RWX) $(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
-        -e 's:\($(MKPATH) $(\)\(B_DATADIR)\):\1DESTDIR)/$(\2:' \
-        -i Makefile.PL || die "sandbox sed failed"
-}
 
 src_test() {
     # Two of these spamc_cf.t tests fail
