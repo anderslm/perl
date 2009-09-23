@@ -5,8 +5,12 @@ MY_PNV="${PN}.pm-${PV}"
 require perl-module [ module_author=LDS ]
 
 SUMMARY="Handle Common Gateway Interface requests and responses"
+
+REMOTE_IDS="cpan:${PN}.pm"
+
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 WORK="${WORKBASE}/${MY_PNV}"
+
