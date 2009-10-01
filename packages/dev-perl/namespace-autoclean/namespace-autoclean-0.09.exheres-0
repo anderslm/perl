@@ -1,0 +1,19 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Keep imports out of your namespace"
+SLOT="0"
+PLATFORMS="~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/B-Hooks-EndOfScope
+        dev-perl/Class-MOP
+        dev-perl/namespace-clean
+"
+
+BUGS_TO="arkanoid@exherbo.org"
+
