@@ -1,0 +1,16 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ADAMK ]
+
+SUMMARY="Find your home and other directories, on any platform"
+DESCRIPTION="
+File::HomeDir is a module for dealing with issues relating to the
+location of directories that are \"owned\" by a user, primarily your
+user, and to solve these issues consistently across a wide variety of
+platforms.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
