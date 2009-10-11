@@ -25,6 +25,6 @@ DEPENDENCIES="
             dev-perl/Package-Constants
             dev-lang/perl:5.10
         )
-    post,suggested:
+    suggestion:
         dev-perl/Text-Diff
 "

@@ -19,5 +19,5 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Class-Method-Modifiers
-    post,suggested:
+    suggestion:
         dev-perl/Data-Util"

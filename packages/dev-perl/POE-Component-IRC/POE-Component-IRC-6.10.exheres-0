@@ -21,5 +21,5 @@ DEPENDENCIES="
         dev-perl/POE
         dev-perl/POE-Component-Pluggable
         dev-perl/POE-Filter-IRCD
-    recommended:
+    recommendation:
         dev-perl/POE-Component-Client-DNS"

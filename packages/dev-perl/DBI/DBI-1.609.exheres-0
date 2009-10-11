@@ -9,6 +9,6 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
-    post,suggested:
+    suggestion:
         dev-perl/PlRPC [[ description = [ Support for connecting to a remote database ] ]]"
 

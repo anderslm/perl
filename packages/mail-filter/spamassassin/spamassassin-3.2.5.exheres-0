@@ -32,8 +32,7 @@ DEPENDENCIES="
         ipv6? (
             dev-perl/IO-Socket-INET6 [[ note = [ Required if the first nameserver listed in your IP configuration or /etc/resolv.conf file is available only via an IPv6 address ] ]]
         )
-
-    post,suggested:
+    suggestion:
         dev-perl/Archive-Tar[>=1.23]   [[ description = [ The 'sa-update' script uses this to access tar update archive files ] ]]
         dev-perl/DBI                   [[ description = [ Needed if you want to use an SQL database backend for user configuration data, Bayes storage or other storage ] ]]
         dev-perl/Encode-Detect         [[ description = [ Needed for the 'normalize_charset' config setting (to detect charsets and convert them into Unicode) ] ]]
