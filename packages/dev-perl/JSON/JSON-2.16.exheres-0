@@ -9,3 +9,8 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
+DEPENDENCIES="
+    suggestion:
+        dev-perl/JSON-XS[>=2.26]
+"
+
