@@ -1,0 +1,12 @@
+# Copyright 2009 Jonathan Dahan <jedahan@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MSERGEANT ]
+
+SUMMARY="Object Oriented time objects"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
