@@ -1,0 +1,11 @@
+# Copyright 2009 Richard Brown <rbrown@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=HMBRAND module_extension=.tgz ]
+
+SUMMARY="comma-separated values manipulation routines"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
