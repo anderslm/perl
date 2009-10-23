@@ -13,6 +13,4 @@ are pleanty of modules on CPAN already.
 HOMEPAGE="${HOMEPAGE} http://git.pioto.org/?p=Unix-Uptime.git"
 
 LICENCES="|| ( Artistic GPL-2 )"
-SLOT="0"
-PLATFORMS="~amd64"
 

@@ -3,11 +3,6 @@
 
 require Unix-Uptime
 
-SCM_REPOSITORY="git://git.pioto.org/Unix-Uptime.git"
-require scm-git
-
-DOWNLOADS=""
-
 SLOT="0"
 PLATFORMS="~amd64"
 
