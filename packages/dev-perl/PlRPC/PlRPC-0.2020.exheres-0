@@ -1,0 +1,17 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MNOONING ]
+
+# Oh look... yet another CPAN inconsistency
+DOWNLOADS="mirror://cpan/authors/id/M/MN/MNOONING/${PN}/${PNV}.tar.gz"
+WORK="${WORKBASE}/${PN}"
+SUMMARY="Perl extension for writing PlRPC servers and clients"
+SLOT="0"
+PLATFORMS="~x86"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Net-Daemon
+"
+
