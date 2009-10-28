@@ -10,5 +10,10 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Class-Singleton[>=1.4]
+        dev-perl/Class-Singleton[>=1.03]
+        dev-perl/Params-Validate[>=0.72]
 "
+# CONTAINED_IN:
+#    dev-perl/Cwd[>=3]
+#    dev-perl/Pod-Man[>=1.14]
+
