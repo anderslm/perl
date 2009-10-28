@@ -1,0 +1,18 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FGLOCK ]
+
+SUMMARY="Datetime sets and set math"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/DateTime[>=0.12]
+        dev-perl/Set-Infinite[>=0.59]
+"
+# CONTAINS/CONTAINED_IN:
+#       dev-perl/Test-More
+

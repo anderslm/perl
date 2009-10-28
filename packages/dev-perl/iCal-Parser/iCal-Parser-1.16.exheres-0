@@ -1,0 +1,30 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RFRANKEL ]
+
+SUMMARY="Parse iCalendar files into a data structure"
+DESCRIPTION="
+This module processes iCalendar (vCalendar 2.0) files as specified in RFC 2445 into a data
+structure. It handles recurrences (RRULEs), exclusions (EXDATEs), event updates (events with a
+RECURRENCE-ID), and nested data structures (ATTENDEES and VALARMs). It currently ignores the
+VTIMEZONE, VJOURNAL and VFREEBUSY entry types.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build:
+        dev-perl/FreezeThaw[>=0.43]
+    build+run:
+        dev-perl/DateTime-Format-ICal[>=0.08]
+        dev-perl/Text-vFile-asData[>=0.02]
+        dev-perl/IO-String
+"
+# In core for all versions of perl we have, but should be in DEPENDENCIES once we get
+# CONTAINS/CONTAINED_IN:
+#        dev-perl/Test-More[>=0.54]
+#        dev-perl/IO[>=1.21]
+#        dev-perl/File-Basename
+

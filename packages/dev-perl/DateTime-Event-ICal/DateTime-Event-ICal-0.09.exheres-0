@@ -1,0 +1,20 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FGLOCK ]
+
+SUMMARY="Perl DateTime extension for computing rfc2445 recurrences"
+DESCRIPTION="
+This module provides convenience methods that let you easily create
+DateTime::Set  objects for rfc2445 style recurrences.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/DateTime
+        dev-perl/DateTime-Event-Recurrence[>=0.11]
+"
+

@@ -1,0 +1,22 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RCLAMP ]
+
+SUMMARY="parse vFile formatted files into data structures"
+DESCRIPTION="
+Text::vFile::asData reads vFile format files, such as vCard (RFC 2426)
+and vCalendar (RFC 2445).
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-lang/perl[>=5.6]
+        dev-perl/Class-Accessor-Chained
+"
+# CONTAINS/CONTAINED_IN:
+#   test: dev-perl/Test-More
+

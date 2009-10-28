@@ -1,0 +1,18 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FGLOCK ]
+
+SUMMARY="Sets of intervals"
+DESCRIPTION="
+Set::Infinite is a Set Theory module for infinite sets.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES=""
+# CONTAINED_IN:
+#        dev-perl/Test-More
+#        dev-perl/Time-Local
+
