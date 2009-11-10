@@ -1,0 +1,23 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=JESSE ]
+
+SUMMARY="Interact with a remote Trac instance"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Any-Moose
+        dev-perl/DateTime
+        dev-perl/libwww-perl
+        dev-perl/Lingua-EN-Inflect
+        dev-perl/Params-Validate
+        dev-perl/Text-CSV
+        dev-perl/URI
+        dev-perl/WWW-Mechanize
+"
+
