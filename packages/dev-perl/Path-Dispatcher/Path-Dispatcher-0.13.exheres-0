@@ -1,0 +1,23 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SARTAK ]
+
+SUMMARY="Flexible and extensible dispatch"
+
+HOMEPAGE+=" http://github.com/bestpractical/path-dispatcher"
+
+LICENCES=""
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Exception
+    build+run:
+        dev-lang/perl:=[>=5.8.1]
+        dev-perl/Any-Moose
+        dev-perl/Sub-Exporter
+"
+
