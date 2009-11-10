@@ -41,5 +41,9 @@ DEPENDENCIES="
         dev-perl/XML-Atom-SimpleFeed
     suggestion:
         dev-perl/JSON-XS            [[ description = [ Faster JSON Parsing ] ]]
+        (
+            dev-perl/DBD
+            dev-perl/DBI-SQLite
+        ) [[ description = [ SQLite replica support ] ]]
 "
 
