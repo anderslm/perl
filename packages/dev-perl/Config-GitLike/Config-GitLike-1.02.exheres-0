@@ -1,0 +1,21 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SPANG ]
+
+SUMMARY="Git-compatible config file parsing"
+HOMEPAGE+=" http://github.com/bestpractical/config-gitlike"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Exception
+    build+run:
+        dev-lang/perl:=[>=5.8.0]
+        dev-perl/File-Temp
+        dev-perl/Any-Moose
+"
+
