@@ -1,0 +1,17 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MSTEVENS ]
+
+SUMMARY="Interface to external editor from perl"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Carp-Assert[>=0.11]
+        dev-perl/File-Temp[>=0.12]
+"
+
