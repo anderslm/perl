@@ -1,0 +1,17 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SUNNAVY ]
+
+SUMMARY="Test the script with run"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/IPC-Run3
+        dev-perl/Test-Exception
+"
+
