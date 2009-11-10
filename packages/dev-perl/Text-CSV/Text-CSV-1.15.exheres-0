@@ -1,0 +1,16 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MAKAMAKA ]
+
+SUMMARY="Comma-separated values manipulator (using XS or PurePerl)"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    suggestion:
+        dev-perl/Text-CSV_XS [[ description = [ Makes CSV parsing faster ] ]]
+"
+
