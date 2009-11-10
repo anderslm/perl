@@ -1,0 +1,45 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=JESSE ]
+
+SUMMARY="A new kind of database designed for the post Web-2.0 world"
+DESCRIPTION="
+Prophet is a new kind of database designed for the post Web-2.0 world. It's
+made to let you collaborate with your friends and coworkers without needing any
+kind of special server or Internet provider.
+
+Prophet's buzzword-laden pitch reads something like this:
+\"A grounded, semirelational, peer to peer replicated, disconnected, versioned,
+property database with self-healing conflict resolution.\"
+"
+
+LICENCES="MIT"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+# Test fail without all optional dependencies installed
+RESTRICT=test
+
+#       dev-perl/Template-Declare   [[ note = [ Optional, but fails tests without it ] ]]
+DEPENDENCIES="
+    build+run:
+        dev-perl/Config-GitLike
+        dev-perl/Exporter-Lite
+        dev-perl/IPC-Run3
+        dev-perl/JSON
+        dev-perl/libwww-perl
+        dev-perl/MIME-Base64-URLSafe
+        dev-perl/Mouse
+        dev-perl/Params-Validate
+        dev-perl/Path-Dispatcher
+        dev-perl/Proc-InvokeEditor
+        dev-perl/Time-Progress
+        dev-perl/URI
+        dev-perl/UUID-Tiny[>=1.02]
+        dev-perl/XML-Atom-SimpleFeed
+    suggestion:
+        dev-perl/JSON-XS            [[ description = [ Faster JSON Parsing ] ]]
+"
+
