@@ -1,0 +1,16 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=CAUGUSTIN ]
+
+SUMMARY="Pure Perl UUID Support With Functional Interface"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Digest-SHA1
+"
+
