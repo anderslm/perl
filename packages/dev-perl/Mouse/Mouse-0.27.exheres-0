@@ -13,7 +13,7 @@ on dependencies as possible. Class::Method::Modifiers or Data::Util is
 required if you want support for 'before', 'after', and 'around'"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
@@ -21,3 +21,4 @@ DEPENDENCIES="
         dev-perl/Class-Method-Modifiers
     suggestion:
         dev-perl/Data-Util"
+

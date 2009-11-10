@@ -6,7 +6,7 @@ require perl-module [ module_author=SARTAK ]
 SUMMARY="Provides Moose-like method modifiers"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

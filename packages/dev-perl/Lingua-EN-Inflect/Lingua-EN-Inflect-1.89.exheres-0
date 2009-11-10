@@ -6,6 +6,6 @@ require perl-module [ module_author=DCONWAY ]
 SUMMARY="Convert singular to plural. Select 'a' or 'an'"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
