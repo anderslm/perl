@@ -1,0 +1,20 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SARTAK ]
+
+SUMMARY=""
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Warn
+    build+run:
+        dev-perl/Class-Accessor
+        dev-perl/Class-Data-Inheritable
+        dev-perl/String-BufferStack
+"
+
