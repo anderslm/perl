@@ -1,0 +1,19 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PETDANCE ]
+
+SUMMARY="Handy web browsing in a Perl object"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Warn
+    build+run:
+        dev-perl/libwww-perl
+        dev-perl/HTTP-Server-Simple[>=0.35]
+"
+
