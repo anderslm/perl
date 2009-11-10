@@ -1,0 +1,16 @@
+# Copyright 2009 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=KAZUHO ]
+
+SUMMARY="Perl version of Python's URL-safe base64 codec"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/MIME-Base64
+"
+
