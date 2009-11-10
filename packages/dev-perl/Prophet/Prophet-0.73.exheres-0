@@ -42,8 +42,8 @@ DEPENDENCIES="
     suggestion:
         dev-perl/JSON-XS            [[ description = [ Faster JSON Parsing ] ]]
         (
-            dev-perl/DBD
-            dev-perl/DBI-SQLite
+            dev-perl/DBI
+            dev-perl/DBD-SQLite
         ) [[ description = [ SQLite replica support ] ]]
 "
 
