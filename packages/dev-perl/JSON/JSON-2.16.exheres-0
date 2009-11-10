@@ -11,6 +11,6 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     suggestion:
-        dev-perl/JSON-XS[>=2.26]
+        dev-perl/JSON-XS[>=2.26] [[ description = [ Makes JSON parsing faster ] ]]
 "
 
