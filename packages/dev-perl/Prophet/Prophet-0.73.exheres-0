@@ -39,6 +39,8 @@ DEPENDENCIES="
         dev-perl/URI
         dev-perl/UUID-Tiny[>=1.02]
         dev-perl/XML-Atom-SimpleFeed
+    run:
+        dev-perl/TermReadKey
     suggestion:
         dev-perl/JSON-XS            [[ description = [ Faster JSON Parsing ] ]]
         (
