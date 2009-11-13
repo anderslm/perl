@@ -1,0 +1,31 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=BRADFITZ ]
+
+SUMMARY="software release tool"
+DESCRIPTION="
+Releasing a new version of software takes a lot of steps... finding the
+next version number (and making sure you didn't already use that version
+number before), making sure your changelog is updated, making sure your
+\"make dist\" results in a tarball that builds, commiting changes (with
+updated version number), tagging, and uploading the tarball somewhere.
+
+Or maybe more steps. Or not some of the above. Maybe you forgot
+something! And maybe you manage multiple projects, and each project has
+a different release process.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    suggestion:
+        dev-scm/git
+        dev-scm/subversion
+"
+#        dev-scm/svk
+# CONTAINED_IN:
+#    build+run:
+#        dev-perl/Term-ReadLine
+
