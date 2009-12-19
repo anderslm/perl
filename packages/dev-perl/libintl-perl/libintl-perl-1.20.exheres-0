@@ -1,4 +1,4 @@
-# Copyright 2009 Sterling X. Winter <sterling.winter@gmail.com>
+# Copyright 2009 Sterling X. Winter <replica@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
 require perl-module [ module_author=GUIDO ]
@@ -25,6 +25,6 @@ MYOPTIONS=""
 
 DEPENDENCIES=""
 
-BUGS_TO="sterling.winter@gmail.com"
+BUGS_TO="replica@exherbo.org"
 REMOTE_IDS="freshmeat:${PN}"
 
