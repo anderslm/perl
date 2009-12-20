@@ -1,4 +1,4 @@
-# Copyright 2009 Sterling X. Winter <sterling.winter@gmail.com>
+# Copyright 2009 Sterling X. Winter <replica@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
 require perl-module [ module_author=SBECK ]
