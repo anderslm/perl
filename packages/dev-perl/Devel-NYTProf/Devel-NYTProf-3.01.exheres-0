@@ -1,0 +1,26 @@
+# Copyright 2009 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=TIMB ]
+
+SUMMARY="Powerful feature-rich perl source code profiler"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+# the perl[>=5.10.1] dep is to get Test-More[>=0.84].
+DEPENDENCIES="
+    build:
+        dev-lang/perl[>=5.10.1]
+    build+run:
+        dev-perl/JSON-Any
+"
+# when we get CONTAINS/CONTAINED_IN:
+#    build:
+#        dev-perl/Test-More[>=0.84]
+#    build+run:
+#        dev-perl/Getopt-Long
+#        dev-perl/List-Util
+#        dev-perl/XSLoader
+
