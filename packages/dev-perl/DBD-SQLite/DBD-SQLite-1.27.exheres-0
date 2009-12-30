@@ -1,0 +1,24 @@
+# Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ADAMK ]
+
+SUMMARY="Self Contained RDBMS in a DBI Driver"
+DESCRIPTION="SQLite is a public domain RDBMS database engine that you can find
+at http://www.hwaci.com/sw/sqlite/.
+Rather than ask you to install SQLite first, because SQLite is public domain,
+DBD::SQLite includes the entire thing in the distribution. So in order to get a
+fast transaction capable RDBMS working for your perl project you simply have to
+install this module, and nothing else."
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/DBI
+        dev-db/sqlite:3[>=3.6]"
+
+PERL_MODULE_SRC_CONFIGURE_PARAMS=( "USE_LOCAL_SQLITE=Yes" )
+
