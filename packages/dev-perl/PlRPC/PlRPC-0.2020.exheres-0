@@ -8,7 +8,7 @@ DOWNLOADS="mirror://cpan/authors/id/M/MN/MNOONING/${PN}/${PNV}.tar.gz"
 WORK="${WORKBASE}/${PN}"
 SUMMARY="Perl extension for writing PlRPC servers and clients"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~ppc64 ~x86"
 
 DEPENDENCIES="
     build+run:
