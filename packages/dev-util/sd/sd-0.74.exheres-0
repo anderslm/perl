@@ -3,7 +3,7 @@
 
 MY_PNV="App-SD-${PV}"
 
-require perl-module [ module_author=JESSE ]
+require perl-module [ module_author=SPANG ]
 
 SUMMARY="SD is a peer-to-peer bug tracker that's built for sharing and use both online and offline"
 DESCRIPTION="
@@ -17,19 +17,16 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
-# Lots of failures
-RESTRICT=test
-
 DEPENDENCIES="
     build:
         dev-perl/Test-Script-Run[>=0.02]
     build+run:
         dev-perl/DateTime
         dev-perl/DateTime-Format-Natural
-        dev-perl/HTML-Tree
+        dev-perl/HTML-Tree [[ note = [ HTML::Tree, HTML::TreeBuilder ] ]]
         dev-perl/Prophet
         dev-perl/Time-Progress
-        dev-perl/URI
+        dev-perl/URI [[ note = [ URI::file ] ]]
     suggestion:
         (
             dev-perl/RT-Client-REST

@@ -1,7 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=JESSE ]
+require perl-module [ module_author=SPANG ]
 
 SUMMARY="A new kind of database designed for the post Web-2.0 world"
 DESCRIPTION="
@@ -19,21 +19,19 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
-# Test fail without all optional dependencies installed
-RESTRICT=test
-
-#       dev-perl/Template-Declare   [[ note = [ Optional, but fails tests without it ] ]]
 DEPENDENCIES="
     build+run:
-        dev-perl/Config-GitLike
+        dev-perl/Any-Moose[>=0.04]
+        dev-perl/Config-GitLike[>=1.02]
         dev-perl/Exporter-Lite
         dev-perl/IPC-Run3
-        dev-perl/JSON
-        dev-perl/libwww-perl
+        dev-perl/JSON[>=2.00]
+        dev-perl/libwww-perl [[ note = [ HTTP::Date, LWP::UserAgent ] ]]
         dev-perl/MIME-Base64-URLSafe
-        dev-perl/Mouse
+        dev-perl/Module-Pluggable
+        dev-perl/Mouse[>=0.21]
         dev-perl/Params-Validate
-        dev-perl/Path-Dispatcher
+        dev-perl/Path-Dispatcher[>=0.14]
         dev-perl/Proc-InvokeEditor
         dev-perl/Time-Progress
         dev-perl/URI
@@ -41,11 +39,19 @@ DEPENDENCIES="
         dev-perl/XML-Atom-SimpleFeed
     run:
         dev-perl/TermReadKey
+    test:
+        dev-perl/Test-Exception[>=0.26]
+        dev-perl/Template-Declare [[ note = [ Optional, but fails tests without it ] ]]
     suggestion:
-        dev-perl/JSON-XS            [[ description = [ Faster JSON Parsing ] ]]
+        dev-perl/JSON-XS [[ description = [ Faster JSON Parsing ] ]]
         (
             dev-perl/DBI
             dev-perl/DBD-SQLite
         ) [[ description = [ SQLite replica support ] ]]
 "
+# core modules:
+#   build:
+#       dev-perl/ExtUtils-MakeMaker[>=6.42]
+#   build+run:
+#       dev-perl/Digest-SHA
 
