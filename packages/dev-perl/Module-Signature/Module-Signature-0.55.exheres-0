@@ -13,7 +13,7 @@ SLOT="0"
 PLATFORMS="~amd64"
 
 DEPENDENCIES="
-build+run:
-    app-crypt/gnupg
-    dev-perl/Digest-SHA1
+    build+run:
+        app-crypt/gnupg
+        dev-perl/Digest-SHA1
 "
