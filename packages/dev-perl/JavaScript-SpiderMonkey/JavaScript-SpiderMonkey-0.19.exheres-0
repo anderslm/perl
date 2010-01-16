@@ -6,7 +6,6 @@ require perl-module [ module_author=TBUSCH ]
 SUMMARY="Perl interface to the Spidermonkey JavaScript Engine "
 
 SLOT="0"
-LICENCES="|| ( Artistic GPL GPL-2 GPL-3 )"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
@@ -18,3 +17,4 @@ DEPENDENCIES="
 
 # This package works fine but the tests fail anyway.
 RESTRICT="test"
+
