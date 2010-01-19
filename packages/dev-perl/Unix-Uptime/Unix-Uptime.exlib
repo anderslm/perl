@@ -10,7 +10,6 @@ the current system uptime, in seconds. It was born out of a desire to do
 this on non-Linux systems, without SNMP. If you want to use SNMP, there
 are pleanty of modules on CPAN already.
 "
-HOMEPAGE="${HOMEPAGE} http://git.pioto.org/?p=Unix-Uptime.git"
 
 LICENCES="|| ( Artistic GPL-2 )"
 

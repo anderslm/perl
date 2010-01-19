@@ -7,7 +7,6 @@ SUMMARY="class for working with remind's daemon mode"
 DESCRIPTION="
 This module provides methods for communicating with the \"Server Mode\" of remind.
 "
-HOMEPAGE="${HOMEPAGE} http://git.pioto.org/?p=${PN}.git"
 
 LICENCES="|| ( Artistic GPL-2 )"
 
