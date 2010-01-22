@@ -1,0 +1,26 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MDXI ]
+
+SUMMARY="A curses based OO user interface framework"
+DESCRIPTION="
+Curses::UI is an object-oriented user interface framework for Perl.
+
+It contains basic widgets (like buttons and text areas), more
+\"advanced\" widgets (like UI tabs and a fully-functional basic text
+editor), and some higher-level classes like pre-fab error dialogues.
+
+See Curses::UI::Tutorial and the examples directory of the source
+distribution for more introductory material.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Curses
+        dev-perl/TermReadKey
+"
+
