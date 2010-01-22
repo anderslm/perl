@@ -1,0 +1,23 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GIRAFFED module_extension=.tgz ]
+
+SUMMARY="terminal screen handling and optimization"
+DESCRIPTION="
+Curses is the interface between Perl and your system's curses(3)
+library. For descriptions on the usage of a given function, variable, or
+constant, consult your system's documentation, as such information
+invariably varies (:-) between different curses(3) libraries and
+operating systems. This document describes the interface itself, and
+assumes that you already know how your system's curses(3) library works.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        sys-libs/ncurses
+"
+
