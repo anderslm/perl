@@ -1,0 +1,30 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DAGOLDEN ]
+
+SUMMARY="capture STDOUT and STDERR from Perl code, subprocesses or XS"
+DESCRIPTION="
+This module provides routines for capturing STDOUT and STDERR from perl
+subroutines, forked system calls (e.g. system(), fork()) and from XS or
+C modules.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+#DEPENDENCIES="
+#    build:
+#        dev-perl/File-Spec[>=3.27] [[ note = [ in perl >=5.8.9 | >=5.10.1 ] ]]
+#        dev-perl/IO-File [[ note = [ in perl >= 5.3.7 ] ]]
+#        dev-perl/Test-More[>=0.62] [[ note = [ in perl >= 5.8.8 ] ]]
+#    build+run:
+#        || (
+#            dev-perl/Carp
+#            dev-perl/Exporter
+#            dev-perl/File::Basename
+#        ) [[ note = [ in perl >= 5 ] ]]
+#        dev-perl/File-Temp[>=0.16] [[ note = [ in perl >=5.8.8 ] ]]
+#        dev-perl/Symbol [[ note = [ in perl >=5.2 ] ]]
+#"
+
