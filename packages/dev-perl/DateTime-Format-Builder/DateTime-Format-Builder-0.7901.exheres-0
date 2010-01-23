@@ -16,6 +16,7 @@ module's innards to any subclasses, or for when you need to do something
 slightly beyond what I expected.
 "
 
+SLOT="0"
 PLATFORMS="~amd64"
 
 DEPENDENCIES="
