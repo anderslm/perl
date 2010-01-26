@@ -1,0 +1,16 @@
+# Copyright 2010 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PEPE ]
+
+SUMMARY="Extract PCM data from audio files"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES+="
+    run:
+        media-sound/sox
+"
+
