@@ -1,0 +1,19 @@
+# Copyright 2010 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PEPE ]
+
+SUMMARY="Audio metadata lookup by fingerprint"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES+="
+    build+run:
+        dev-perl/Audio-Extract-PCM
+        dev-perl/Audio-Ofa
+        dev-perl/WebService-MusicBrainz
+        dev-perl/XML-Simple
+"
+
