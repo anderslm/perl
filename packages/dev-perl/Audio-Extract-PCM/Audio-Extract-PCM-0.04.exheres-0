@@ -11,6 +11,7 @@ MYOPTIONS=""
 
 DEPENDENCIES+="
     run:
+        dev-perl/IO-CaptureOutput
         media-sound/sox
 "
 
