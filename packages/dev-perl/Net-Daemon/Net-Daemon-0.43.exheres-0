@@ -15,6 +15,6 @@ the true work. You only have to override those methods that aren't appropriate
 for you, but typically inheriting will safe you a lot of work anyways."
 
 SLOT="0"
-PLATFORMS="~ppc64 ~x86"
+PLATFORMS="~amd64 ~ppc64 ~x86"
 DEPENDENCIES=""
 
