@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=DROLSKY ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="A postmodern object system for Perl 5"
 SLOT="0"
@@ -10,7 +10,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Class-MOP
+        dev-perl/Class-MOP[>=0.98]
         dev-perl/Data-OptList
         dev-perl/List-MoreUtils
         dev-perl/Sub-Exporter
