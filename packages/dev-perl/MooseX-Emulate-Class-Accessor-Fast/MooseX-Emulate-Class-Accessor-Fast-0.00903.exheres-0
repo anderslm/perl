@@ -1,0 +1,14 @@
+# Copyright 2010 Anders Ossowicki <aowi@exherbo.org>
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Emulate Class::Accessor::Fast behavior using Moose attributes"
+SLOT="0"
+PLATFORMS="~x86"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Moose[>=0.84]
+        dev-perl/namespace-clean
+"
+
