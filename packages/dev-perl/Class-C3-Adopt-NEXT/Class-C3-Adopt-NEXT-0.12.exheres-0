@@ -1,0 +1,22 @@
+# Copyright 2010 Anders Ossowicki <aowi@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Drop-in replacement for dev-perl/NEXT"
+DESCRIPTION="This module is intended as a drop-in replacement for NEXT (Pesudo-class for method
+redispatch), supporting the same interface, but using Class::C3 to do the hard work. You can then
+write new code without NEXT, and migrate individual source files to use Class::C3 or method
+modifiers as appropriate, at whatever pace you're comfortable with. This module uses NEXT as a
+fallback in some cases.
+"
+SLOT="0"
+PLATFORMS="~x86"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/List-MoreUtils
+        dev-perl/MRO-Compat
+        dev-perl/NEXT
+"
+
