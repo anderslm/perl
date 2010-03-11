@@ -1,0 +1,9 @@
+# Copyright 2010 Anders Ossowicki <aowi@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Provide a pseudo-class NEXT (et al) that allows method redispatch"
+SLOT="0"
+PLATFORMS="~x86"
+
