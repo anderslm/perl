@@ -13,6 +13,7 @@ DEPENDENCIES="
     build+run:
         dev-perl/CGI-Simple
         dev-perl/Class-Accessor
+        dev-perl/Class-C3-Adopt-NEXT[>=0.07]
         dev-perl/Class-Data-Inheritable
         dev-perl/Class-Inspector[>=1.06]
         dev-perl/Data-Dump
@@ -21,7 +22,10 @@ DEPENDENCIES="
         dev-perl/HTTP-Request-AsCGI[>=0.5]
         dev-perl/HTTP-Body[>=1.04]
         dev-perl/Module-Pluggable[>=3.01]
+        dev-perl/MooseX-Emulate-Class-Accessor-Fast[>=0.00801]                                                               
+        dev-perl/MooseX-MethodAttributes[>=0.15]
         dev-perl/Path-Class[>=0.09]
+        dev-perl/String-RewritePrefix[>=0.004]
         dev-perl/Text-Balanced
         dev-perl/Text-SimpleTable[>=0.03]
         dev-perl/Time-HiRes
