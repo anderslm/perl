@@ -14,6 +14,7 @@ DEPENDENCIES="
         dev-perl/MRO-Compat
         dev-perl/Sub-Name
         dev-perl/Task-Weaken
+        dev-perl/Try-Tiny
 "
 
 BUGS_TO="arkanoid@exherbo.org"
