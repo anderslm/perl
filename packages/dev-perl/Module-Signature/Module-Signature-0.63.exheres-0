@@ -1,7 +1,7 @@
-# Copyright 2008 Mike Kelly <pioto@exherbo.org>
+# Copyright 2008, 2010 Mike Kelly <pioto@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=AUDREYT ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="Module signature file manipulation"
 DESCRIPTION="
@@ -17,3 +17,4 @@ DEPENDENCIES="
         app-crypt/gnupg
         dev-perl/Digest-SHA1
 "
+
