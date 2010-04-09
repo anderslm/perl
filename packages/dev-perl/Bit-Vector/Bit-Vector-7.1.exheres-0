@@ -1,0 +1,17 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=STBEY ]
+
+SUMMARY="Efficient bit vector, set of integers and \"big int\" math library"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Carp-Clan[>=5.3]
+"
+#    build+run:
+#        dev-perl/Storable[>=2.21]
+
