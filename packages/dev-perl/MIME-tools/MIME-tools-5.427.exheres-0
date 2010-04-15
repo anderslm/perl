@@ -15,7 +15,5 @@ DEPENDENCIES="
         dev-perl/MailTools[>=2.04]
 "
 
-src_test() {
-    sydboxcmd net/allow
-    perl-module_src_test
-}
+DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-sydbox.patch )
+
