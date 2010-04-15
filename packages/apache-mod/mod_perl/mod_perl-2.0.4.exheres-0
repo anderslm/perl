@@ -58,7 +58,7 @@ src_configure() {
 }
 
 src_test() {
-    sydboxcmd net/allow
+    sydboxcmd sandunbox/net
 
     TMPDIR="${TEMP}" HOME="${T}/" emake -j1 test
 }
