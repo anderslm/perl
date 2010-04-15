@@ -1,0 +1,14 @@
+Source: Ali Polatel <alip@exherbo.org>
+Upstream: No (TODO)
+Reason: Binding to 0.0.0.0 is bad, mmkay?
+--- SOAP-Lite-0.710.08/t/SOAP/Transport/HTTP.t	2010-04-15 13:43:06.000000000 +0300
++++ SOAP-Lite-0.710.08/t/SOAP/Transport/HTTP.t	2010-04-15 13:43:32.000000000 +0300
+@@ -72,7 +72,7 @@
+ # package SOAP::Transport::HTTP::Daemon
+ my $transport;
+ 
+-ok $transport = SOAP::Transport::HTTP::Daemon->new(), 'SOAP::Transport::HTTP::Daemon->new()';
++ok $transport = SOAP::Transport::HTTP::Daemon->new(LocalAddr => 'localhost'), 'SOAP::Transport::HTTP::Daemon->new()';
+ is $transport, $transport->new(), '$transport->new() is $transport';
+ is $transport->SSL(1), $transport;
+ is $transport->SSL(), 1;
