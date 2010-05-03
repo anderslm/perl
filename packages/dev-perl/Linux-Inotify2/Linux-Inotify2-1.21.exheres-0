@@ -1,0 +1,19 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=MLEHMANN ]
+
+SUMMARY="scalable directory/file change notification"
+DESCRIPTION="
+This module implements an interface to the Linux 2.6.13 and later
+Inotify file/directory change notification sytem.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/common-sense
+"
+
