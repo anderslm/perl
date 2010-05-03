@@ -5,7 +5,7 @@ require perl-module [ module_author=DROLSKY ]
 
 SUMMARY="A Meta Object Protocol for Perl 5"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="

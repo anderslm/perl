@@ -5,7 +5,6 @@ require perl-module [ module_author=CHOCOLATE ]
 
 SUMMARY="Lexically scoped resource management"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""

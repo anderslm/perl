@@ -6,7 +6,6 @@ require perl-module [ module_author=FLORA ]
 SUMMARY="A module for merging hierarchies using the C3 algorithm"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""
