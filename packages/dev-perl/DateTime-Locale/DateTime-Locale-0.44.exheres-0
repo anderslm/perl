@@ -12,4 +12,5 @@ DEPENDENCIES="
     build+run:
         dev-perl/Params-Validate[>=0.91]
         dev-perl/List-MoreUtils[>=0.22]
+        dev-perl/Class-ISA
 "

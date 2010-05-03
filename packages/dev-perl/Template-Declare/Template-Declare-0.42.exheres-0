@@ -15,6 +15,7 @@ DEPENDENCIES="
     build+run:
         dev-perl/Class-Accessor
         dev-perl/Class-Data-Inheritable
+        dev-perl/Class-ISA
         dev-perl/String-BufferStack
 "
 
