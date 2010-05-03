@@ -1,0 +1,31 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DROLSKY ]
+
+SUMMARY="Watch for changes to files, cross-platform style"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build:
+        dev-perl/File-Temp
+        dev-lang/perl[>=5.10.1] [[ note = [ for Test-More >=0.88 ] ]]
+    build+run:
+        dev-perl/Class-MOP
+        dev-perl/Module-Pluggable [[ note = [ for Module::Pluggable::Object ] ]]
+        dev-perl/Moose
+        dev-perl/MooseX-Params-Validate[>=0.08]
+        dev-perl/MooseX-SemiAffordanceAccessor
+        dev-perl/Time-HiRes
+        dev-perl/Linux-Inotify2[>=1.2]
+"
+#    build:
+#        dev-perl/File-Path
+#        dev-perl/Test-More[>=0.88]
+#    build+run:
+#        dev-perl/Carp
+#        dev-perl/File-Find
+#        dev-perl/File-Spec
+
