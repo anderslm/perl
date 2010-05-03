@@ -1,0 +1,30 @@
+# Copyright 2010 Mike Kelly
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DROLSKY ]
+
+SUMMARY="an extension of Params::Validate for using Moose's types"
+DESCRIPTION="
+This module fills a gap in Moose by adding method parameter validation
+to Moose. This is just one of many developing options, it should not be
+considered the \"official\" one by any means though.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build:
+        dev-perl/Test-Exception[>=0.21]
+    build+run:
+        dev-perl/Devel-Caller
+        dev-perl/Moose[>=0.58]
+        dev-perl/Params-Validate[>=0.88]
+        dev-perl/Sub-Exporter
+"
+#    build:
+#        dev-perl/Test-More[>=0.62]
+#    build+run:
+#        dev-perl/Carp
+#        dev-perl/Scalar-Util
+
