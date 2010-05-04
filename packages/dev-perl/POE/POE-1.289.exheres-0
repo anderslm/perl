@@ -15,9 +15,32 @@ can be mixed and matched seamlessly within a single program."
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
-MYOPTIONS=""
 
 DEPENDENCIES="
+    build:
+        || (
+            dev-lang/perl[>=5.12]
+            dev-perl/Module-Build[>=0.36]
+        )
     build+run:
-        dev-perl/POE-Test-Loops
+        dev-perl/IO-Tty[>=1.08]
+        dev-perl/POE-Test-Loops[>=1.035]
 "
+#    build+run:
+#        dev-perl/Carp
+#        dev-perl/Exporter
+#        dev-perl/Errno[>=1.09]
+#        dev-perl/File-Spec[>=0.87]
+#        dev-perl/IO-Handle[>=1.27]
+#        dev-perl/POSIX[>=1.02]
+#        dev-perl/Socket[>=1.7]
+#        dev-perl/Storable[>=2.16]
+#        dev-perl/Test-Harness[>=2.26]
+#    recommended:
+#        dev-perl/Time-HiRes[>=1.59]
+
+src_test() {
+    edo rm run_network_tests
+    perl-module_src_test
+}
+
