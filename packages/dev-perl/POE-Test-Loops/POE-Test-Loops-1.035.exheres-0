@@ -9,6 +9,4 @@ generate all the loop tests for one or more POE::Loop subclasses."
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
-MYOPTIONS=""
 
-DEPENDENCIES=""
