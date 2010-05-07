@@ -1,10 +1,9 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=KRAIH ]
+require perl-module [ module_author=MRAMBERG ]
 
 SUMMARY="Simple Eyecandy ASCII Tables"
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
-
