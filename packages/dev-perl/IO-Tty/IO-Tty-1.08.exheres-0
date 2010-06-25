@@ -6,5 +6,5 @@ require perl-module [ module_author=RGIERSIG ]
 SUMMARY="Low-level allocate a pseudo-Tty, import constants."
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
