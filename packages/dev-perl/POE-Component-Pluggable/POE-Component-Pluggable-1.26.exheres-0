@@ -23,4 +23,5 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/POE"
+        dev-perl/POE[>=1.004]"
+
