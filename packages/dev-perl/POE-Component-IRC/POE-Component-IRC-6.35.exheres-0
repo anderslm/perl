@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BINGOS ]
+require perl-module [ module_author=HINRIK ]
 
 SUMMARY="A fully event-driven IRC client module "
 DESCRIPTION="POE::Component::IRC is a POE component (who'd have guessed?) which
@@ -18,8 +18,15 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/POE
-        dev-perl/POE-Component-Pluggable
-        dev-perl/POE-Filter-IRCD
+        dev-perl/POE[>=1.287]
+        dev-perl/POE-Component-Pluggable[>=1.26]
+        dev-perl/POE-Filter-IRCD[>=2.42]
     recommendation:
-        dev-perl/POE-Component-Client-DNS"
+        dev-perl/POE-Component-Client-DNS[>=0.99]"
+
+src_test() {
+    sydboxcmd sandunbox/net
+    default
+    sydboxcmd sandbox/net
+}
+
