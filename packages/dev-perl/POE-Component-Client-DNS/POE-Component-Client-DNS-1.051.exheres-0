@@ -13,6 +13,10 @@ PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
+    test:
+        dev-perl/Test-NoWarnings[>=0.084]
     build+run:
-        dev-perl/POE
-        dev-perl/Net-DNS"
+        dev-perl/POE[>=1.280]
+        dev-perl/Net-DNS[>=0.59]
+"
+
