@@ -11,5 +11,11 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/DateTime-Locale[>=0.41]
-        dev-perl/DateTime-TimeZone[>=0.95]
+        dev-perl/DateTime-TimeZone[>=1.09]
+        dev-perl/Params-Validate[>=0.76]
+    test:
+        dev-perl/Test-Exception
 "
+#    test:
+#        dev-perl/Test-Simple[>=0.88] [[ note = [ for Test::More 0.88 ] ]]
+
