@@ -17,3 +17,9 @@ DEPENDENCIES="
         dev-perl/HTTP-Server-Simple[>=0.35]
 "
 
+src_test() {
+    sydboxcmd sandunbox/net
+    default
+    sydboxcmd sandbox/net
+}
+
