@@ -14,3 +14,9 @@ DEPENDENCIES="
         dev-perl/URI
 "
 
+src_test() {
+    sydboxcmd sandunbox/net
+    default
+    sydboxcmd sandbox/net
+}
+
