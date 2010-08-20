@@ -32,3 +32,4 @@ DEPENDENCIES="
         dev-perl/Scope-Guard[>=0.03]
         dev-perl/Scalar-List-Utils[>=1.19]
         dev-perl/Sub-Name"
+

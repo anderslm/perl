@@ -20,3 +20,4 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
           dev-perl/B-Hooks-EndOfScope[>=0.07]"
+

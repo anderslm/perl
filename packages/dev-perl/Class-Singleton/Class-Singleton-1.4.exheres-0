@@ -7,3 +7,4 @@ SUMMARY="Implementation of a 'Singleton' class"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
+

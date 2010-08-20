@@ -14,3 +14,4 @@ DEPENDENCIES="
         dev-perl/XML-NamespaceSupport[>=1.10]
         dev-perl/Text-Iconv[>=1.7]
 "
+

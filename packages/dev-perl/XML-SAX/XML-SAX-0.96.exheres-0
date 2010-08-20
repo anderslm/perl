@@ -22,3 +22,4 @@ pkg_postinst() {
     # exist yet but it will be created properly in that case.
     perl -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::PurePerl))->save_parsers()"
 }
+

@@ -18,3 +18,4 @@ DEPENDENCIES="
         dev-perl/Text-SimpleTable[>=2.0]
         dev-perl/Test-Exception[>=0.27]
 "
+

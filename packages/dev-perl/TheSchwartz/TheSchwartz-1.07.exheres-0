@@ -16,3 +16,4 @@ DEPENDENCIES="
 
 # The tests are known to fail.
 RESTRICT="test"
+

@@ -7,3 +7,4 @@ SUMMARY="RFC 2822 Address Parsing and Creation"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
+

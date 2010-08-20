@@ -16,3 +16,4 @@ DEPENDENCIES="
         dev-perl/MRO-Compat
     build:
         dev-perl/Test-Exception"
+

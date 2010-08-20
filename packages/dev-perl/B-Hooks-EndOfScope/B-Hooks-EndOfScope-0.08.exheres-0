@@ -13,3 +13,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/Sub-Exporter
         dev-perl/Variable-Magic[>=0.34]"
+

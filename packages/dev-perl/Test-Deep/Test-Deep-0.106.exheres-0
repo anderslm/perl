@@ -13,3 +13,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/Test-NoWarnings
         dev-perl/Test-Tester"
+

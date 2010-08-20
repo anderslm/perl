@@ -12,3 +12,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/Email-MessageID[>=1.2]
 "
+

@@ -21,3 +21,4 @@ DEPENDENCIES="
         dev-perl/Gtk2-Perl[>=1.012]
         x11-libs/gtk+[>=2]
 "
+

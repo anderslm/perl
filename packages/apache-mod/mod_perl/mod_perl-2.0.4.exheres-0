@@ -78,3 +78,4 @@ src_install() {
         sed -i -e "s:${IMAGE}:/:g" ${FILE}
     done
 }
+

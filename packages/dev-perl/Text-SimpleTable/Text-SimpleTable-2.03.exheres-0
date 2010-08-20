@@ -7,3 +7,4 @@ SUMMARY="Simple Eyecandy ASCII Tables"
 
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
+

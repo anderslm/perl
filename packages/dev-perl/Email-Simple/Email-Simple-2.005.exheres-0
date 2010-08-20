@@ -7,3 +7,4 @@ SUMMARY="simple parsing of RFC2822 message format and headers"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
+

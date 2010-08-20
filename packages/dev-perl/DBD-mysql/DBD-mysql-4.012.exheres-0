@@ -18,3 +18,4 @@ DEPENDENCIES="
 # The tests need a running mysql server, a highly privileged user, a test database
 # and lots of other unreasonable stuff.
 RESTRICT="test"
+

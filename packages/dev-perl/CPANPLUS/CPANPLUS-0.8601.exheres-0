@@ -18,3 +18,4 @@ DEPENDENCIES="
             dev-lang/perl[>=5.10.1]
         ) [[ note = [ Added to CORE per 5.10.1 ] ]]
         dev-lang/perl:5.10 [[ note = [ Needs ExtUtils::Installed >= 1.42 ] ]]"
+

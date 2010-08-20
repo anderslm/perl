@@ -7,3 +7,4 @@ SUMMARY="A unified interface to MIME encoding and decoding"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
+

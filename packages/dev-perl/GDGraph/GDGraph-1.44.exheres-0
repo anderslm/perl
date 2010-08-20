@@ -14,3 +14,4 @@ DEPENDENCIES="
         dev-perl/GDTextUtil[>=0.86]
         media-libs/gd[>=2.0.35]
 "
+

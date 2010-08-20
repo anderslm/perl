@@ -45,3 +45,4 @@ src_test() {
     sydboxcmd "net/unwhitelist/bind/inet://127.0.0.1@20500"
     sydboxcmd "net/unwhitelist/bind/inet://127.0.0.1@20501"
 }
+

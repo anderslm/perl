@@ -7,3 +7,4 @@ SUMMARY="(deprecated) polymorphic return values"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
+

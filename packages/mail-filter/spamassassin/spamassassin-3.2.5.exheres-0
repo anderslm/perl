@@ -56,3 +56,4 @@ src_test() {
 
     perl-module_src_test
 }
+

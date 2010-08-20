@@ -13,3 +13,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/Class-Inspector
         dev-perl/MRO-Compat"
+

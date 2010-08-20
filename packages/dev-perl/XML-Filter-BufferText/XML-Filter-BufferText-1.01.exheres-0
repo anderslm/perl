@@ -14,3 +14,4 @@ DEPENDENCIES="
         dev-perl/XML-SAX[>=0.96]
         dev-perl/XML-SAX-Base[>=1.03]
 "
+

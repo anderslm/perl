@@ -13,3 +13,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/HTML-Parser[>=3.62]
 "
+

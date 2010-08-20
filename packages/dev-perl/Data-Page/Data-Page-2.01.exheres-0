@@ -14,3 +14,4 @@ DEPENDENCIES="
         dev-perl/Class-Accessor-Chained
     build:
         dev-perl/Test-Exception"
+

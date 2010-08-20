@@ -12,3 +12,4 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Test-Exception"
+

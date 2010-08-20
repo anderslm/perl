@@ -12,3 +12,4 @@ DEPENDENCIES=""
 
 # The tests are known to be broken.
 RESTRICT="test"
+

@@ -18,3 +18,4 @@ RESTRICT="test"
 src_test_expensive() {
     emake -j1 test
 }
+

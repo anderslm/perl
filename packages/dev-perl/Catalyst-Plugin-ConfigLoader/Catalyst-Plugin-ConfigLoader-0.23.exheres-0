@@ -18,3 +18,4 @@ DEPENDENCIES="
         dev-perl/Config-Any
         dev-perl/Data-Visitor[>=0.24]
         dev-perl/MRO-Compat"
+

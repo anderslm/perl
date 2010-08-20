@@ -16,3 +16,4 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Module-Pluggable"
+
