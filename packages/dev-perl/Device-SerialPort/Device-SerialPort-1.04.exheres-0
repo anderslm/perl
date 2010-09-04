@@ -1,0 +1,13 @@
+# Copyright 2010 Markus Rothe
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=COOK ]
+
+SUMMARY="Linux/POSIX emulation of Win32::SerialPort functions."
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
