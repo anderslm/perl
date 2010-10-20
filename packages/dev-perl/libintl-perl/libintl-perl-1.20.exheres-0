@@ -21,9 +21,6 @@ HOMEPAGE="http://guido-flohr.net/projects/libintl-perl/ ${HOMEPAGE}"
 LICENCES="LGPL-2.1"
 SLOT="0"
 PLATFORMS="~amd64"
-MYOPTIONS=""
-
-DEPENDENCIES=""
 
 BUGS_TO="replica@exherbo.org"
 REMOTE_IDS="freshmeat:${PN}"
