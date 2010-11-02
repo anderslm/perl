@@ -6,7 +6,7 @@ require perl-module [ module_author=SMUELLER ]
 SUMMARY="report the search path for a class's ISA tree"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES=""
 #    build+run:
