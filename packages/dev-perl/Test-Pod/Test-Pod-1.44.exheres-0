@@ -1,7 +1,7 @@
 # Copyright 2009 Mike Kelly
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=PETDANCE ]
+require perl-module [ module_author=DWHEELER ]
 
 SUMMARY="check for POD errors in files"
 DESCRIPTION="
