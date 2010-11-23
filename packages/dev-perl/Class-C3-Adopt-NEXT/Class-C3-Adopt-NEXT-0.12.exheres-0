@@ -18,5 +18,7 @@ DEPENDENCIES="
         dev-perl/List-MoreUtils
         dev-perl/MRO-Compat
         dev-perl/NEXT
+    test:
+        dev-perl/Test-Exception
 "
 
