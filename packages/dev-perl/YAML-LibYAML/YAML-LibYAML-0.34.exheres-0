@@ -1,7 +1,7 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=NUFFIN ]
+require perl-module [ module_author=INGY ]
 
 SUMMARY="Perl YAML implementation using XS and libyaml"
 
