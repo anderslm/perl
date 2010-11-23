@@ -11,5 +11,9 @@ SLOT="0"
 PLATFORMS="~amd64 ~ppc64 ~x86"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+# XML-Simple requires XML-SAX for certain operations but will fall back to
+# XML-Parser if XML-SAX isn't present.
+DEPENDENCIES="
+    build+run: 
+        || ( dev-perl/XML-SAX dev-perl/XML-Parser )"
 
