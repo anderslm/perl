@@ -10,5 +10,8 @@ PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 DEPENDENCIES="
     build+run:
-        dev-perl/Hash-Util-FieldHash-Compat"
+        dev-perl/Hash-Util-FieldHash-Compat
+    test:
+        dev-perl/Scope-Guard
+        dev-perl/Test-Exception"
 
