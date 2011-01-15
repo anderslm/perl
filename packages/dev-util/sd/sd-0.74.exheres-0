@@ -27,7 +27,7 @@ DEPENDENCIES="
         dev-perl/Prophet
         dev-perl/Time-Progress
         dev-perl/URI [[ note = [ URI::file ] ]]
-	dev-perl/DBD-SQLite
+        dev-perl/DBD-SQLite
     suggestion:
         (
             dev-perl/RT-Client-REST
