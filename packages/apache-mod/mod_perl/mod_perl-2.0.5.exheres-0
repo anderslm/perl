@@ -34,10 +34,7 @@ DEPENDENCIES="
         www-servers/apache[>=2.2.12][apache_modules:authn_file][apache_modules:authz_groupfile][apache_modules:authn_default][apache_modules:authz_default][apache_modules:authz_owner][apache_modules:authz_user]
 "
 
-DEFAULT_SRC_PREPARE_PATCHES=(
-    -p0 "${FILES}"/${PNV}-sneak-tmpdir.patch
-    -p3 "${FILES}"/CVE-2009-0796.patch
-)
+DEFAULT_SRC_PREPARE_PATCHES=( -p0 "${FILES}"/${PNV}-sneak-tmpdir.patch )
 
 DEFAULT_SRC_INSTALL_PARAMS=(
     DESTDIR=""
