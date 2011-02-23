@@ -26,6 +26,6 @@ DEPENDENCIES="
             dev-lang/perl:5.10
         )
     suggestion:
-        dev-perl/Text-Diff [[ description = [ Needed by the ptardiff utility ] ]]
+        dev-perl/Text-Diff [[ description = [ Needed by the ptardiff utility ] ]]
 "
 
