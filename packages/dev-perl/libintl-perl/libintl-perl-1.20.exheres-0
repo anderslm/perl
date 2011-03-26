@@ -22,6 +22,5 @@ LICENCES="LGPL-2.1"
 SLOT="0"
 PLATFORMS="~amd64"
 
-BUGS_TO="replica@exherbo.org"
 REMOTE_IDS="freshmeat:${PN}"
 
