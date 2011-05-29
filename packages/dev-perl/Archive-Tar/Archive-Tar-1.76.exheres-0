@@ -1,7 +1,7 @@
 # Copyright 2008 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=KANE ]
+require perl-module [ module_author=BINGOS ]
 
 SUMMARY="A perl module for manipulations of tar archives"
 DESCRIPTION="Archive::Tar provides an object oriented mechanism for handling tar
