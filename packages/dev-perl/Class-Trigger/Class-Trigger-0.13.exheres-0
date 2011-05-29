@@ -6,7 +6,7 @@ require perl-module [ module_author=MIYAGAWA ]
 SUMMARY="Mixin to add / call inheritable triggers"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
