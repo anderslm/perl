@@ -1,7 +1,7 @@
 # Copyright 2010 Mike Kelly
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=RICKM module_extension=.tgz ]
+require perl-module [ module_author=DROLSKY ]
 
 SUMMARY="Parse and format strp and strf time patterns"
 DESCRIPTION="
@@ -18,7 +18,7 @@ DEPENDENCIES="
     build+run:
         dev-perl/Params-Validate[>0.64]
         dev-perl/DateTime[>=0.44] [[ note = [ this dep should be >= 0.4304, but perl module versioning is weird ] ]]
-        dev-perl/DateTime-Locale[>=0.43]
+        dev-perl/DateTime-Locale[>=0.45]
         dev-perl/DateTime-TimeZone[>=0.79]
 "
 
