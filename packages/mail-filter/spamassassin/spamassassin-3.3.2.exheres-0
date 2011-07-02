@@ -32,28 +32,31 @@ DEPENDENCIES="
         ipv6? (
             dev-perl/IO-Socket-INET6 [[ note = [ Required if the first nameserver listed in your IP configuration or /etc/resolv.conf file is available only via an IPv6 address ] ]]
         )
+    recommendation:
+        dev-perl/DB_File                [[ description = [ Used to store data on-disk, for the Bayes-style logic and auto-whitelist. ] ]]
     suggestion:
-        dev-perl/Archive-Tar[>=1.23]   [[ description = [ The 'sa-update' script uses this to access tar update archive files ] ]]
+        (
+            dev-perl/libwww-perl            [[ description = [ The 'sa-update' script requires this to make HTTP requests. ] ]]
+            dev-perl/HTTP-Date              [[ description = [ The 'sa-update' script requires this to make HTTP If-Modified-Since GET requests. ] ]]
+            dev-perl/Archive-Tar[>=1.23]    [[ description = [ The 'sa-update' script uses this to access tar update archive files ] ]]
+            dev-perl/IO-Zlib[>=1.04]        [[ description = [ The 'sa-update' script uses this to access compressed update archive files ] ]]
+        ) [[ *group-name = [ sa-update ] ]]
         dev-perl/DBI                   [[ description = [ Needed if you want to use an SQL database backend for user configuration data, Bayes storage or other storage ] ]]
         dev-perl/Encode-Detect         [[ description = [ Needed for the 'normalize_charset' config setting (to detect charsets and convert them into Unicode) ] ]]
         dev-perl/Mail-DKIM             [[ description = [ If the the DKIM/DomainKeys plugins are enabled, SA will perform DKIM/Domain Key lookups when a DKIM-Signature header/Domain Key information is present in the message headers ] ]]
         dev-perl/Mail-SPF              [[ description = [ Used to check DNS Sender Policy Framework (SPF) records to fight email address forgery and make it easier to identify spams ] ]]
         dev-perl/Net-Ident             [[ description = [ Needed to use the --auth-ident option to spamd ] ]]
-        dev-perl/IO-Zlib[>=1.04]          [[ description = [ The 'sa-update' script uses this to access compressed update archive files ] ]]
         dev-perl/IP-Country            [[ description = [ Used by the RelayCountry plugin (not enabled by default) to determine the domain country codes of each relay in the path of an email ] ]]
         dev-perl/Razor2[>=2.61]           [[ description = [ Used to check message signatures against Vipul's Razor collaborative filtering network ] ]]
 "
-
-DEFAULT_SRC_PREPARE_PATCHES=( -p1 "${FILES}"/${PNV}-DESTDIR.patch )
 
 WORK=${WORKBASE}/${MY_PNV}
 
 PERL_MODULE_SRC_CONFIGURE_PARAMS=( SYSCONFDIR=/etc DATADIR=/usr/share/spamassassin )
 
 src_test() {
-    # Two of these spamc_cf.t tests fail
-    export SKIP_SPAMC_TESTS=YesPlease
-
+    esandbox allow_net "unix:${TEMP}satest*/*"
+    esandbox allow_net --connect "unix:${TEMP}satest*/*"
     perl-module_src_test
 }
 
