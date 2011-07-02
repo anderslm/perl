@@ -31,27 +31,27 @@ DEPENDENCIES="
     suggestion:
         (
             dev-perl/RT-Client-REST
-        ) [[ description = [ RT sync ] ]]
+        ) [[ *description = [ RT sync ] ]]
         (
             dev-perl/Net-Jifty[>=0.09]
             dev-perl/Email-Address
-        ) [[ description = [ Hiveminder sync ] ]]
+        ) [[ *description = [ Hiveminder sync ] ]]
         (
             dev-perl/libwww-perl [[ note = [ LWP::Simple ] ]]
             dev-perl/Net-Trac[>=0.13]
-        ) [[ description = [ Trac sync ] ]]
+        ) [[ *description = [ Trac sync ] ]]
         (
             dev-perl/Net-Google-Code[>=0.14]
-        ) [[ description = [ Google Code sync (experimental) ] ]]
+        ) [[ *description = [ Google Code sync (experimental) ] ]]
         (
             dev-perl/Net-GitHub[>=0.18]
-        ) [[ description = [ Github sync (experimental) ] ]]
+        ) [[ *description = [ Github sync (experimental) ] ]]
         (
             dev-perl/Net-Redmine[>=0.18]
-        ) [[ description = [ Redmine sync (experimental) ] ]]
+        ) [[ *description = [ Redmine sync (experimental) ] ]]
         (
             dev-perl/Net-Lighthouse[>=0.01]
-        ) [[ description = [ Lighthouse sync (experimental) ] ]]
+        ) [[ *description = [ Lighthouse sync (experimental) ] ]]
 "
 
 WORK=${WORKBASE}/${MY_PNV}
