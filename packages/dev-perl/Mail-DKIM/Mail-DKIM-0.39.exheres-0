@@ -1,0 +1,25 @@
+# Copyright 2011 Dan Callaghan <djc@djc.id.au>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=JASLONG ]
+
+SUMMARY="Perl module to sign/verify mail with DKIM/DomainKey signatures"
+DESCRIPTION="
+This module implements the various components of the DKIM and DomainKeys message-signing and
+verifying standards for Internet mail. It currently tries to implement these specifications:
+RFC4871, for DKIM
+RFC4870, for DomainKeys
+"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Crypt-OpenSSL-RSA[>=0.24]
+        dev-perl/Digest-SHA
+        dev-perl/MailTools
+        dev-perl/MIME-Base64
+        dev-perl/Net-DNS
+"
+
