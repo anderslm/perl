@@ -1,0 +1,24 @@
+# Copyright 2011 Dan Callaghan <djc@djc.id.au>
+# Distributed under the terms of the GNU General Public License v2
+
+MY_PNV=${PN}-v${PV}
+require perl-module [ module_author=JMEHNLE ]
+
+SUMMARY="Perl programmable DNS resolver class for offline emulation of DNS"
+DESCRIPTION="
+Net::DNS::Resolver::Programmable is a Net::DNS::Resolver descendant class that allows a virtual DNS
+to be emulated instead of querying the real DNS. A set of static DNS records may be supplied, or
+arbitrary code may be specified as a means for retrieving DNS records, or even generating them on
+the fly.
+"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+
+WORK="${WORKBASE}/${MY_PNV}"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Net-DNS
+"
+
