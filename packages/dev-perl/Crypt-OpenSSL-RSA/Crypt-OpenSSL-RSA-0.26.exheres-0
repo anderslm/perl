@@ -1,0 +1,20 @@
+# Copyright 2011 Dan Callaghan <djc@djc.id.au>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=IROBERTS ]
+
+SUMMARY="Perl module for RSA encoding and decoding, using the OpenSSL libraries"
+DESCRIPTION="
+Crypt::OpenSSL::RSA provides the ability to RSA encrypt strings which are somewhat shorter than the
+block size of a key. It also allows for decryption, signatures and signature verification.
+"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+
+DEPENDENCIES="
+    build+run:
+        dev-libs/openssl
+        dev-perl/Crypt-OpenSSL-Random
+"
+
