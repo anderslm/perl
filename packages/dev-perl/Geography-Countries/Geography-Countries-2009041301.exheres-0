@@ -1,0 +1,11 @@
+# Copyright 2011 Dan Callaghan <djc@djc.id.au>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ABIGAIL ]
+
+SUMMARY="Perl module with 2-letter, 3-letter, and numerical codes for countries"
+
+LICENCES="MIT"
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+
