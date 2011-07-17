@@ -18,7 +18,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Compress-Zlib[>=2.015]
+        dev-lang/perl:=[>=5.9.3] [[ note = [ for Compress::Zlib ] ]]
         dev-perl/IO-Compress[>=2.017]
         dev-perl/IO-Zlib
         || (
