@@ -1,0 +1,12 @@
+# Copyright 2011 Elias Pipping <pipping@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GAAS ]
+
+SUMMARY="Guess media type for a file or a URL"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES=""
+
