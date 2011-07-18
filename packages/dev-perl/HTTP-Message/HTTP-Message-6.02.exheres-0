@@ -1,0 +1,19 @@
+# Copyright 2011 Elias Pipping <pipping@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GAAS ]
+
+SUMMARY="HTTP style request message"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Encode-Locale
+        dev-perl/HTML-Parser
+        dev-perl/HTTP-Date
+        dev-perl/LWP-MediaTypes
+        dev-perl/URI
+"
+
