@@ -1,10 +1,10 @@
 # Copyright 2010 Wulf C. Krueger <philantrop@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
+MY_PNV=${PNV/_p/_}
 require perl-module [ module_author=SREZIC ]
 
 SUMMARY="A graphical user interface toolkit for Perl"
-DOWNLOADS="mirror://cpan/authors/id/${MODULE_AUTHOR:0:1}/${MODULE_AUTHOR:0:2}/${MODULE_AUTHOR}/${MY_PNV:-${PNV/_p/_}}${MODULE_EXTENSION}"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
@@ -23,5 +23,5 @@ RESTRICT="test"
 
 PERL_MODULE_SRC_CONFIGURE_PARAMS=( XFT=1 )
 
-WORK=${WORKBASE}/${PNV/_p/_}
+WORK=${WORKBASE}/${MY_PNV}
 
