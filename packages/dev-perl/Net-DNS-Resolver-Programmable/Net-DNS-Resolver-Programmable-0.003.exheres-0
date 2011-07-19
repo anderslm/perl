@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 MY_PNV=${PN}-v${PV}
-require perl-module [ module_author=JMEHNLE ]
+require perl-module [ module_author=JMEHNLE subdir=${PN,,} ]
 
 SUMMARY="Perl programmable DNS resolver class for offline emulation of DNS"
 DESCRIPTION="
