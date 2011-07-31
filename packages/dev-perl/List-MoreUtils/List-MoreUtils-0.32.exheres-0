@@ -1,7 +1,7 @@
-# Copyright 2008, 2009 Ingmar Vanhassel <ingmar@exherbo.org>
+# Copyright 2008, 2009, 2011 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=VPARSEVAL ]
+require perl-module [ module_author=ADAMK ]
 
 SUMMARY="Provide the stuff missing in List::Util"
 
