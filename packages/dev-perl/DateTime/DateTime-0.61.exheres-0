@@ -19,3 +19,7 @@ DEPENDENCIES="
 #    test:
 #        dev-perl/Test-Simple[>=0.88] [[ note = [ for Test::More 0.88 ] ]]
 
+pkg_setup() {
+    export LD="${CC}"
+}
+
