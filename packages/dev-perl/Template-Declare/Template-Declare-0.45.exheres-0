@@ -1,4 +1,4 @@
-# Copyright 2009 Ingmar Vanhassel
+# Copyright 2009, 2011 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
 require perl-module [ module_author=SARTAK ]
@@ -11,11 +11,11 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build:
-        dev-perl/Test-Warn
+        dev-perl/Test-Warn[>=0.11]
     build+run:
         dev-perl/Class-Accessor
         dev-perl/Class-Data-Inheritable
         dev-perl/Class-ISA
-        dev-perl/String-BufferStack
+        dev-perl/String-BufferStack[>=1.1]
 "
 
