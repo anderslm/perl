@@ -1,4 +1,4 @@
-# Copyright 2009 Ingmar Vanhassel
+# Copyright 2009, 2011 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
 require perl-module [ module_author=SCHUBIGER ]
@@ -10,10 +10,13 @@ PLATFORMS="~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
-    build:
+    test:
+        dev-perl/Class-Load
+        dev-perl/Module-Util
         dev-perl/Test-MockTime
     build+run:
         dev-perl/boolean
         dev-perl/DateTime
+        dev-perl/List-MoreUtils
 "
 
