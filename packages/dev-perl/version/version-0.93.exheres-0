@@ -1,9 +1,5 @@
-# Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
+# Copyright 2008, 2011 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
-
-MY_PNV="${PNV%00}" # PNV is zero-padded because of perl/cpan's stupid
-                   # versioning scheme
-WORK="${WORKBASE}/${MY_PNV}"
 
 require perl-module [ module_author=JPEACOCK ]
 
