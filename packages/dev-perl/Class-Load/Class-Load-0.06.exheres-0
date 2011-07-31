@@ -1,0 +1,15 @@
+# Copyright 2011 Ingmar Vanhassel <ingmar@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SARTAK ]
+
+SUMMARY="A working (require "Class::Name") and more"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    test:
+        dev-perl/Test-Fatal
+"
+
