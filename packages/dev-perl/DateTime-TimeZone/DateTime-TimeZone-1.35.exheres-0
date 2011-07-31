@@ -3,17 +3,16 @@
 
 require perl-module [ module_author=DROLSKY ]
 
-SUMMARY="Time zone object base class and factory "
+SUMMARY="Time zone object base class and factory"
 SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
+    test:
+        dev-perl/Class-Load
     build+run:
         dev-perl/Class-Singleton[>=1.03]
         dev-perl/Params-Validate[>=0.72]
 "
-# CONTAINED_IN:
-#    dev-perl/Cwd[>=3]
-#    dev-perl/Pod-Man[>=1.14]
 
