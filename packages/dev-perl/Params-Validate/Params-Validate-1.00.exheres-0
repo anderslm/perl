@@ -8,3 +8,8 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
+pkg_setup() {
+    # Uses LD where it means CC, unconfuse it
+    export LD=${CC}
+}
+
