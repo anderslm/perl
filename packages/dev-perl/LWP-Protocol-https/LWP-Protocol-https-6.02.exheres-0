@@ -1,0 +1,18 @@
+# Copyright 2011 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GAAS ]
+
+SUMMARY="Provide https support for LWP::UserAgent"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/IO-Socket-SSL
+        dev-perl/libwww-perl[>=${PV}]
+        dev-perl/Net-HTTP
+"
+
