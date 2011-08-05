@@ -1,0 +1,13 @@
+# Copyright 2011 Ingmar Vanhassel
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GAAS ]
+
+SUMMARY="Parse directory listing"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
