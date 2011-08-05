@@ -9,17 +9,28 @@ SUMMARY="A collection of Perl Modules for the WWW"
 
 SLOT="0"
 PLATFORMS="~amd64 ~ppc64 ~x86"
-MYOPTIONS="ssl"
+MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-lang/perl:=[>=5.9.3] [[ note = [ for Compress::Zlib ] ]]
+        dev-lang/perl:=[>=5.8.8]
+        dev-perl/Encode-Locale
+        dev-perl/File-Listing
         dev-perl/HTML-Parser
-        dev-perl/HTML-Tree
-        dev-perl/libnet
+        dev-perl/HTTP-Cookies
+        dev-perl/HTTP-Daemon
+        dev-perl/HTTP-Date
+        dev-perl/HTTP-Negotiate
+        dev-perl/HTTP-Message
+        dev-perl/LWP-MediaTypes
+        dev-perl/Net-HTTP
         dev-perl/URI
-        ssl? ( dev-perl/Crypt-SSLeay )
+        dev-perl/WWW-RobotRules
+    post:
+        dev-perl/LWP-Protocol-https [[ note = [ SSL support ] ]]
 "
+
+# recommends: dev-perl/Data-Dump
 
 DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-sydbox.patch )
 
