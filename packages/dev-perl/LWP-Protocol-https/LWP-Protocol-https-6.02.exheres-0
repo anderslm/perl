@@ -9,6 +9,10 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
+# This package has only 2 tests, which do depend on working internet.
+# Thus they fail under network sandboxing, maybe not worth fixing if there's only 2 of them
+RESTRICT=test
+
 DEPENDENCIES="
     build+run:
         dev-perl/IO-Socket-SSL
