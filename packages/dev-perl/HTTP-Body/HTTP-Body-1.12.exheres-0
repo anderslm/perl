@@ -1,7 +1,7 @@
 # Copyright 2008, 2011 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=AGRUNDMA ]
+require perl-module [ module_author=GETTY ]
 
 SUMMARY="HTTP Body Parser"
 
@@ -9,9 +9,10 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 
 DEPENDENCIES="
+    test:
+        dev-perl/Test-Deep
     build+run:
         dev-perl/File-Temp[>=0.14]
-        dev-perl/libwww-perl
-        dev-perl/YAML[>=0.39]
+        dev-perl/HTTP-Message
 "
 
