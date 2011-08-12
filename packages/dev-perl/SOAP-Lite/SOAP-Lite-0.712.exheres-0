@@ -10,13 +10,14 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Crypt-SSLeay[>=0.57]
-        dev-perl/IO-Socket-SSL[>=1.30]
-        dev-perl/MIME-Lite[>=3.024]
-        dev-perl/MIME-tools[>=5.427]
-        dev-perl/libwww-perl[>=5.812]
-        dev-perl/URI[>=1.40]
-        dev-perl/XML-Parser[>=2.36]
+        dev-perl/Class-Inspector
+        dev-perl/HTTP-Daemon
+        dev-perl/IO-Socket-SSL
+        dev-perl/libwww-perl
+        dev-perl/MIME-Base64
+        dev-perl/URI
+        dev-perl/Task-Weaken
+        dev-perl/XML-Parser[>=2.23]
 "
 
 DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-sydbox.patch )
