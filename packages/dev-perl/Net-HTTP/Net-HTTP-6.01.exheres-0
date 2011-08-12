@@ -12,7 +12,6 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Compress-Raw-Zlib
-        dev-perl/IO
         dev-perl/IO-Compress
         dev-perl/IO-Socket-SSL
 "
