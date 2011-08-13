@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FDALY ]
+require perl-module [ module_author=ADAMK ]
 
 SUMMARY="Make sure you didn't emit any warnings while testing"
 
@@ -10,6 +10,7 @@ PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
-    build+run:
-        dev-perl/Test-Tester"
+    build:
+        dev-perl/Test-Tester[>=0.107]
+"
 
