@@ -9,5 +9,8 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    build+run:
+        dev-perl/HTTP-Date[>=6]
+"
 
