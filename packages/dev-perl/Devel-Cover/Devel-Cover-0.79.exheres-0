@@ -15,5 +15,7 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    test:
+        dev-perl/Test-Warn"
 
