@@ -1,0 +1,15 @@
+# Copyright 2011 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=PARDUS subdir=${PN} ]
+
+SUMMARY="Object to handle .desktop files"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/File-BaseDir[>=0.03]
+"
+
