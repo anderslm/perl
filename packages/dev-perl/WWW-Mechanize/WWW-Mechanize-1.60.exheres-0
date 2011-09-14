@@ -13,7 +13,10 @@ DEPENDENCIES="
     build:
         dev-perl/Test-Warn
     build+run:
-        dev-perl/libwww-perl
+        || (
+            ( dev-perl/libwww-perl[>=6] dev-perl/HTML-Form )
+            dev-perl/libwww-perl[<6]
+           )
         dev-perl/HTTP-Server-Simple[>=0.35]
 "
 

@@ -1,0 +1,19 @@
+# Copyright 2011 Ivan Miljenovic <Ivan.Miljenovic@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=GAAS ]
+
+SUMMARY="Class that represents an HTML form element"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/HTML-Parser
+        dev-perl/HTTP-Message[>=6]
+        dev-perl/URI[>=1.10]
+        !dev-perl/libwww-perl[<6]
+"
+
