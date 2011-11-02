@@ -1,0 +1,11 @@
+# Copyright 2011 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DANIEL ]
+
+SUMMARY="Object-oriented interface to Ogg Vorbis information and comment fields"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
