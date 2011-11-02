@@ -1,0 +1,11 @@
+# Copyright 2011 Ali Polatel <alip@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=DANIEL ]
+
+SUMMARY="Perl module to manipulate/fetch info from MP3 files"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
