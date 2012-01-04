@@ -6,7 +6,7 @@ require perl-module [ module_author=GAAS ]
 SUMMARY="Low-level HTTP connection (client)"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
