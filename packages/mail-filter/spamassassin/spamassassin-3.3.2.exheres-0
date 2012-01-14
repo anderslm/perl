@@ -29,6 +29,7 @@ DEPENDENCIES="
         dev-perl/Digest-SHA1
         dev-perl/HTML-Parser[>=3.43]
         dev-perl/Net-DNS[>=0.34]
+        dev-perl/NetAddr-IP
         ipv6? (
             dev-perl/IO-Socket-INET6 [[ note = [ Required if the first nameserver listed in your IP configuration or /etc/resolv.conf file is available only via an IPv6 address ] ]]
         )
