@@ -1,4 +1,4 @@
-# Copyright 2009-2011 Wulf C. Krueger <philantrop@exherbo.org>
+# Copyright 2009-2012 Wulf C. Krueger <philantrop@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
 require perl-module [ module_author=CHARTGRP ]
@@ -11,6 +11,6 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/GD[>=2.44]
-        media-libs/gd[>=2.0.35][png]
+        media-libs/gd[>=2.0.35]
 "
 
