@@ -6,7 +6,7 @@ require perl-module [ module_author=RHANDOM ]
 SUMMARY="Extensible, general Perl server engine"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 
 DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-fix-sydbox-violations.patch );
 
