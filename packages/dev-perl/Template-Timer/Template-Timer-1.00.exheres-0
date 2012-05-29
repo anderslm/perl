@@ -6,7 +6,7 @@ require perl-module [ module_author=PETDANCE ]
 SUMMARY="Rudimentary profiling for Template Toolkit"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
