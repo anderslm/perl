@@ -6,6 +6,6 @@ require perl-module [ module_author=VPIT ]
 SUMMARY="Associate user-defined magic to variables from Perl"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
