@@ -4,7 +4,7 @@ require perl-module [ module_author=FLORA ]
 
 SUMMARY="Emulate Class::Accessor::Fast behavior using Moose attributes"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 
 DEPENDENCIES="
     build+run:
