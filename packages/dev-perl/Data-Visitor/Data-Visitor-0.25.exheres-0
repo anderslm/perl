@@ -12,7 +12,7 @@ object behavior, circular structures, visiting tied structures, and all ref
 types (hashes, arrays, scalars, code, globs)."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
