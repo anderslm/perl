@@ -1,12 +1,12 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=ASH ]
+require perl-module [ module_author=FREW ]
 
 SUMMARY="Load mix-ins or components to your C3-based class"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
