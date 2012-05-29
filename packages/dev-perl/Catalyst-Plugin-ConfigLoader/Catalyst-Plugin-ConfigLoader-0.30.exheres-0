@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MRAMBERG ]
+require perl-module [ module_author=BRICAS ]
 
 SUMMARY="Load config files of various types in Catalyst"
 DESCRIPTION="This module will attempt to load find and load a configuration
@@ -9,7 +9,7 @@ file of various types. Currently it supports YAML, JSON, XML, INI and Perl
 formats."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
@@ -18,4 +18,7 @@ DEPENDENCIES="
         dev-perl/Config-Any
         dev-perl/Data-Visitor[>=0.24]
         dev-perl/MRO-Compat"
+
+# Where is aliased.pm?
+RESTRICT="test"
 
