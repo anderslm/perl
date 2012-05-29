@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FLORA ]
+require perl-module [ module_author=ABRAXXA ]
 
 SUMMARY="Make serving static pages in Catalyst painless"
 DESCRIPTION="The Static::Simple plugin is designed to make serving static
@@ -14,7 +14,7 @@ correct MIME type directly to the browser, without being processed through
 Catalyst."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
@@ -22,4 +22,6 @@ DEPENDENCIES="
         dev-perl/Catalyst-Runtime
         dev-perl/MIME-Types[>=1.25]
         dev-perl/MRO-Compat"
+
+RESTRICT="test"
 
