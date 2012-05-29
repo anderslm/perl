@@ -1,12 +1,12 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MRAMBERG ]
+require perl-module [ module_author=BOBTFISH ]
 
 SUMMARY="Template Toolkit View Class for Catalyst"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
@@ -16,4 +16,6 @@ DEPENDENCIES="
         dev-perl/Path-Class
         dev-perl/Template-Toolkit
         dev-perl/Template-Timer"
+
+RESTRICT="test"
 
