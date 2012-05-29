@@ -5,7 +5,7 @@ require perl-module [ module_author=FLORA ]
 
 SUMMARY="Keep imports out of your namespace"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
