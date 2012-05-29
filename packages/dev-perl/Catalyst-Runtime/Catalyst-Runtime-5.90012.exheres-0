@@ -1,7 +1,7 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=MRAMBERG ]
+require perl-module [ module_author=BOBTFISH ]
 
 SUMMARY="The elegant MVC web application framework"
 
@@ -19,11 +19,11 @@ DEPENDENCIES="
         dev-perl/Data-Dump
         dev-perl/File-Modified
         dev-perl/libwww-perl[>=5.811]
-        dev-perl/HTTP-Request-AsCGI[>=0.5]
+        dev-perl/HTTP-Request-AsCGI[>=1.0]
         dev-perl/HTTP-Body[>=1.04]
         dev-perl/Module-Pluggable[>=3.01]
         dev-perl/MooseX-Emulate-Class-Accessor-Fast[>=0.00801]                                                               
-        dev-perl/MooseX-MethodAttributes[>=0.15]
+        dev-perl/MooseX-MethodAttributes[>=0.24]
         dev-perl/Path-Class[>=0.09]
         dev-perl/String-RewritePrefix[>=0.004]
         dev-perl/Text-Balanced
@@ -32,4 +32,6 @@ DEPENDENCIES="
         dev-perl/Tree-Simple[>=1.15]
         dev-perl/Tree-Simple-VisitorFactory
 "
+
+RESTRICT="test"
 
