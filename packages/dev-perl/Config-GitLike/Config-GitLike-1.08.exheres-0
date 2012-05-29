@@ -1,7 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=SPANG ]
+require perl-module [ module_author=ALEXMV ]
 
 SUMMARY="Git-compatible config file parsing"
 HOMEPAGE+=" http://github.com/bestpractical/config-gitlike"
