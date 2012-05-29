@@ -6,7 +6,7 @@ require perl-module [ module_author=LBROCARD ]
 SUMMARY="Help when paging through sets of results"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
