@@ -5,7 +5,7 @@ require perl-module [ module_author=RKITOVER ]
 
 SUMMARY="Organise your Moose types in libraries"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 
 DEPENDENCIES="
     build+run:
