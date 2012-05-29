@@ -11,7 +11,7 @@ modifiers as appropriate, at whatever pace you're comfortable with. This module 
 fallback in some cases.
 "
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 
 DEPENDENCIES="
     build+run:
