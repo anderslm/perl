@@ -6,11 +6,14 @@ require perl-module [ module_author=CLACO ]
 SUMMARY="Lets you build groups of accessors"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
         dev-perl/Class-Inspector
-        dev-perl/MRO-Compat"
+        dev-perl/MRO-Compat
+    test:
+        dev-perl/Test-Exception
+"
 
