@@ -5,5 +5,5 @@ require perl-module [ module_author=FLORA ]
 
 SUMMARY="Provide a pseudo-class NEXT (et al) that allows method redispatch"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 
