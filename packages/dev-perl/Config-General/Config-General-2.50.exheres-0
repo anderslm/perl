@@ -6,6 +6,6 @@ require perl-module [ module_author=TLINDEN ]
 SUMMARY="Generic Config Module"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
