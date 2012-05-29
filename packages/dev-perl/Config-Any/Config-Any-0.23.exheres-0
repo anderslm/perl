@@ -10,7 +10,7 @@ It supports XML, YAML, JSON, Apache-style configuration, Windows INI
 files, and even Perl code."
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
