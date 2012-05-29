@@ -5,7 +5,7 @@ require perl-module [ module_author=TMTM ]
 
 SUMMARY="Add contextual fetches to DBI"
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES=""
