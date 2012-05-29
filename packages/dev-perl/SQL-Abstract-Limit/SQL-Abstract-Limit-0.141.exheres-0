@@ -6,7 +6,7 @@ require perl-module [ module_author=DAVEBAIRD ]
 SUMMARY="SQL Abtract LIMIT emulation"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
