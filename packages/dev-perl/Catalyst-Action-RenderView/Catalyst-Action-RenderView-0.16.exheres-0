@@ -1,12 +1,12 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FLORA ]
+require perl-module [ module_author=BOBTFISH ]
 
 SUMMARY="Sensible default end action for Catalyst"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
@@ -14,4 +14,6 @@ DEPENDENCIES="
         dev-perl/Catalyst-Runtime
         dev-perl/Data-Visitor[>=0.24]
         dev-perl/MRO-Compat"
+
+RESTRICT="test"
 
