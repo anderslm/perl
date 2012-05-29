@@ -6,7 +6,7 @@ require perl-module [ module_author=CLACO ]
 SUMMARY="Inheritable, overridable class and instance data accessor creation"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES=""
