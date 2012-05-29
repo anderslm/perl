@@ -12,6 +12,4 @@ DEPENDENCIES="
     build+run:
         dev-perl/Carp-Clan[>=5.3]
 "
-#    build+run:
-#        dev-perl/Storable[>=2.21]
 
