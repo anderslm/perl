@@ -4,6 +4,6 @@
 require perl-module [ module_author=RDF ]
 
 SUMMARY="Recursively copy Perl datatypes"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 SLOT="0"
 
