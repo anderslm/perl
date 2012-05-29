@@ -6,7 +6,7 @@ require perl-module [ module_author=RIBASUSHI ]
 SUMMARY="Generate SQL from Perl data structures"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
