@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FLORA ]
+require perl-module [ module_author=DOY ]
 
 SUMMARY="A postmodern object system for Perl 5"
 SLOT="0"
@@ -10,13 +10,16 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Class-MOP[>=0.98]
-        dev-perl/Data-OptList
-        dev-perl/List-MoreUtils
         dev-perl/Sub-Exporter
-        dev-perl/Sub-Name
         dev-perl/Task-Weaken
-        dev-perl/Try-Tiny
+        dev-perl/MRO-Compat
+        dev-perl/Sub-Name
+        dev-perl/Devel-GlobalDestruction
+        dev-perl/Eval-Closure
+        dev-perl/Class-MOP[>=1.08]
+        dev-perl/Package-Stash
+    test:
+        dev-perl/Module-Implementation
 "
 
 BUGS_TO="arkanoid@exherbo.org"
