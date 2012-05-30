@@ -1,0 +1,18 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=TOKUHIROM ]
+
+SUMMARY="Checks to see if the module can be loaded"
+DESCRIPTION="
+Test::Requires checks to see if the module can be loaded.
+
+If this fails rather than failing tests this skips all tests.
+"
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+"
+
