@@ -13,3 +13,5 @@ DEPENDENCIES="
     build+run:
         media-libs/gd"
 
+RESTRICT="test"
+
