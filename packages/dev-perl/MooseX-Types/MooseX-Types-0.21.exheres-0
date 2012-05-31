@@ -16,3 +16,5 @@ DEPENDENCIES="
         dev-perl/namespace-clean[>=0.08]
 "
 
+RESTRICT="test"
+
