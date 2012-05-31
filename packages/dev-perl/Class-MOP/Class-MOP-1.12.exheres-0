@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=DROLSKY ]
+require perl-module [ module_author=FLORA ]
 
 SUMMARY="A Meta Object Protocol for Perl 5"
 SLOT="0"
@@ -15,7 +15,10 @@ DEPENDENCIES="
         dev-perl/Sub-Name
         dev-perl/Task-Weaken
         dev-perl/Try-Tiny
+        dev-perl/Package-Stash
 "
 
 BUGS_TO="arkanoid@exherbo.org"
+
+RESTRICT="test"
 
