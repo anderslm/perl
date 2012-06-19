@@ -9,7 +9,7 @@ SUMMARY="Perl library plus a command-line application for reading, writing and e
 DOWNLOADS="http://owl.phy.queensu.ca/~phil/exiftool/${MY_PNV}.tar.gz"
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 WORK=${WORKBASE}/${MY_PNV}
