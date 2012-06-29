@@ -6,7 +6,7 @@ require perl-module [ module_author=GAAS ]
 SUMMARY="Guess media type for a file or a URL"
 
 SLOT="0"
-PLATFORMS="~amd64 ~x86"
+PLATFORMS="~amd64 ~ppc64 ~x86"
 
 DEPENDENCIES=""
 

@@ -6,5 +6,5 @@ require perl-module [ module_author=FLORA ]
 SUMMARY="Perl module to efficiently compute time from local and GMT time"
 
 SLOT="0"
-PLATFORMS="~amd64 ~x86"
+PLATFORMS="~amd64 ~ppc64 ~x86"
 
