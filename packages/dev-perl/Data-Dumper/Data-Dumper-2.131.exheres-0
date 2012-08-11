@@ -1,0 +1,13 @@
+# Copyright 2012 Quentin "Sardem FF7" Glidic <sardemff7+exherbo@sardemff7.net>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=SMUELLER ]
+
+SUMMARY="Stringified perl data structures, suitable for both printing and eval"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES=""
+
