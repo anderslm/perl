@@ -1,0 +1,22 @@
+# Copyright 2012 Quentin "Sardem FF7" Glidic <sardemff7+exherbo@sardemff7.net>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ADAMK ]
+
+SUMMARY="Standalone, extensible Perl module installer"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/File-Remove
+        dev-perl/JSON
+        dev-perl/libwww-perl
+        dev-perl/Module-Build
+        dev-perl/Module-ScanDeps
+        dev-perl/PAR-Dist
+        dev-perl/YAML-Tiny
+"
+
