@@ -1,0 +1,16 @@
+# Copyright 2012 Quentin "Sardem FF7" Glidic <sardemff7+exherbo@sardemff7.net>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Opaque, extensible XS pointer backed objects using sv_magic"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+    test:
+        dev-perl/Test-use-ok
+"
+
