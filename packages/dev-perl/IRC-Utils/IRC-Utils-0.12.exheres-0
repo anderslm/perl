@@ -1,0 +1,14 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=HINRIK ]
+
+SUMMARY="Common utilities for IRC-related tasks."
+DESCRIPTION="
+The functions in this module take care of many of the tasks you are faced with when working with
+IRC. Mode lines, ban masks, message encoding and formatting, etc.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
