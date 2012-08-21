@@ -1,0 +1,16 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="Roles which support overloading."
+DESCRIPTION="
+MooseX::Role::WithOverloading allows you to write a Moose::Role which defines overloaded operators
+and allows those operator overloadings to be composed into the classes/roles/instances it's compiled
+to, while plain Moose::Roles would lose the overloading.
+"
+SLOT="0"
+PLATFORMS="~amd64"
+
+RESTRICT="test"
+
