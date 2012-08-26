@@ -6,7 +6,7 @@ require perl-module [ module_author=CORION ]
 SUMMARY="Establish an ISA relationship with base classes at compile time"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES=""
