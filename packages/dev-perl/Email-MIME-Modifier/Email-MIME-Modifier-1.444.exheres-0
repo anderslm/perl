@@ -11,5 +11,7 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Email-MessageID[>=1.2]
+        dev-perl/Email-MIME[>=1.82]
+        dev-perl/Email-Simple[>=1.92]
 "
 
