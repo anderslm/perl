@@ -5,7 +5,7 @@ require perl-module [ module_author=NUFFIN ]
 SUMMARY="Use Hash::Util::FieldHash or ties, depending on availability"
 
 SLOT="0"
-PLATFORMS="~x86"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
 DEPENDENCIES="
