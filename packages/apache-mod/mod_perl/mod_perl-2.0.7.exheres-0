@@ -1,4 +1,4 @@
-# Copyright 2009-2011 Wulf C. Krueger <philantrop@exherbo.org>
+# Copyright 2009-2012 Wulf C. Krueger <philantrop@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 # Based in part upon 'mod_perl-2.0.4-r1.ebuild' from Gentoo, which is:
 #     Copyright 1999-2009 Gentoo Foundation
@@ -14,7 +14,10 @@ embedded in the server avoids the overhead of starting an external interpreter
 and the penalty of Perl start-up time.
 "
 HOMEPAGE="http://perl.apache.org"
-DOWNLOADS="mirror://apache/perl/${PNV}.tar.gz"
+DOWNLOADS="
+    mirror://apache/perl/${PNV}.tar.gz
+    http://dev.exherbo.org/~philantrop/distfiles/mod_perl-2.0.7-apache24.tar.gz
+"
 
 BUGS_TO="philantrop@exherbo.org"
 REMOTE_IDS="freshmeat:${PN} cpan:${PN}"
@@ -29,12 +32,17 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
+        dev-lang/perl[ithreads]
         dev-perl/CGI[>=3.45]
         dev-perl/IO-Compress[>=2.017]
-        www-servers/apache[>=2.2.12][apache_modules:authn_file][apache_modules:authz_groupfile][apache_modules:authn_default][apache_modules:authz_default][apache_modules:authz_owner][apache_modules:authz_user]
+        www-servers/apache[>=2.4.0][apache_modules:authn_file][apache_modules:authz_groupfile][apache_modules:authn_default][apache_modules:authz_default][apache_modules:authz_owner][apache_modules:authz_user]
 "
 
-DEFAULT_SRC_PREPARE_PATCHES=( -p0 "${FILES}"/${PNV}-sneak-tmpdir.patch )
+DEFAULT_SRC_PREPARE_PATCHES=(
+    -p1 "${WORKBASE}"/apache24
+    -p1 "${FILES}"/0001-Fix-names.patch
+    -p0 "${FILES}"/${PNV}-sneak-tmpdir.patch
+)
 
 DEFAULT_SRC_INSTALL_PARAMS=(
     DESTDIR=""
@@ -45,13 +53,14 @@ DEFAULT_SRC_INSTALL_PARAMS=(
 )
 
 src_configure() {
-    perl Makefile.PL \
+    edo perl Makefile.PL \
         PREFIX="${IMAGE}"/usr \
         MP_TRACE=1 \
         MP_DEBUG=1 \
         MP_USE_DSO=1 \
         MP_APXS=/usr/bin/apxs \
-        INSTALLDIRS=vendor </dev/null || die
+        MP_APR_CONFIG=/usr/bin/apr-1-config \
+        INSTALLDIRS=vendor </dev/null
 }
 
 src_test() {
