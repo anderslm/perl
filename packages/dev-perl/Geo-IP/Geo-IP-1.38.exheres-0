@@ -14,3 +14,10 @@ DEPENDENCIES="
         net-libs/GeoIP[>=1.4.5]
 "
 
+src_test() {
+    # Remove test that needs an Internet connection
+    rm -f "${WORK}"/t/2_namelookup.t
+
+    default
+}
+
