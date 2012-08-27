@@ -13,6 +13,7 @@ DEPENDENCIES="
         dev-perl/Carp-Clan
         dev-perl/Class-Accessor
         dev-perl/Class-C3
+        dev-perl/Class-Data-Accessor
         dev-perl/Class-Inspector
         dev-perl/DBI
         dev-perl/DBIx-Class
