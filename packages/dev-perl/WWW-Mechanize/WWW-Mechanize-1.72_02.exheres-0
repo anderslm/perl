@@ -1,7 +1,7 @@
 # Copyright 2009 Ingmar Vanhassel
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=PETDANCE ]
+require perl-module [ module_author=MSTROUT ]
 
 SUMMARY="Handy web browsing in a Perl object"
 
@@ -18,11 +18,13 @@ DEPENDENCIES="
             dev-perl/libwww-perl[<6]
            )
         dev-perl/HTTP-Server-Simple[>=0.35]
+    test:
+        dev-perl/Test-Pod
 "
 
 src_test() {
-    sydboxcmd sandunbox/net
+    esandbox disable_net
     default
-    sydboxcmd sandbox/net
+    esandbox enable_net
 }
 
