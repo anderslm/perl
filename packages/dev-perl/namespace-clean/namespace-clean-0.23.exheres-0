@@ -19,5 +19,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-          dev-perl/B-Hooks-EndOfScope[>=0.07]"
+          dev-perl/B-Hooks-EndOfScope[>=0.07]
+          dev-perl/Package-Stash
+"
 
