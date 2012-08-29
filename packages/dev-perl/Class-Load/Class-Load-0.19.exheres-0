@@ -9,6 +9,8 @@ PLATFORMS="~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
+    build+run:
+        dev-perl/Data-OptList
     test:
         dev-perl/Test-Fatal
         dev-perl/Module-Implementation
