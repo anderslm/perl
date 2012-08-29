@@ -1,0 +1,19 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=FLORA ]
+
+SUMMARY="ExtUtils::Depends - Easily build XS extensions that depend on XS extensions."
+DESCRIPTION="
+This module tries to make it easy to build Perl extensions that use functions and typemaps provided
+by other perl extensions. This means that a perl extension is treated like a shared library that
+provides also a C and an XS interface besides the perl one.
+"
+
+SLOT="0"
+PLATFORMS="~amd64"
+MYOPTIONS=""
+
+DEPENDENCIES="
+"
+
