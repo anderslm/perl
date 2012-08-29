@@ -10,7 +10,10 @@ PLATFORMS="~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
+    build+run:
+        dev-perl/ExtUtils-Depends
     test:
+        dev-perl/Test-Fatal
         dev-perl/Test-use-ok
 "
 
