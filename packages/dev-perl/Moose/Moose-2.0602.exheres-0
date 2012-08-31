@@ -16,6 +16,7 @@ DEPENDENCIES="
         dev-perl/Sub-Name
         dev-perl/Devel-GlobalDestruction
         dev-perl/Eval-Closure
+        dev-perl/Class-Load
         dev-perl/Class-MOP[>=1.08]
         dev-perl/Package-Stash
     test:
