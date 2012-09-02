@@ -10,10 +10,11 @@ MYOPTIONS=""
 
 DEPENDENCIES=""
 
-src_prepare() {
-    # This test triggers a sydbox network violation for binding to 0.0.0.0 and
-    # I'm too dumb to fix it properly.
-    rm t/07io.t || die "removing test failed"
+src_test() {
+    # Some tests use random port-numbers.
+    esandbox allow_net "inet:127.0.0.1@0-100000"
+    esandbox allow_net --connect "inet:127.0.0.1@0-100000"
+    esandbox allow_net "inet:0.0.0.0@0-10000"
 
     default
 }
