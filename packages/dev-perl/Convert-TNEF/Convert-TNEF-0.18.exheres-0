@@ -10,6 +10,7 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
+        dev-perl/IO-stringy
         dev-perl/MIME-tools[>=4.109]
 "
 
