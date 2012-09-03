@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FLORA ]
+require perl-module [ module_author=DOY ]
 
 SUMMARY="Visitor style traversal of Perl data structures"
 DESCRIPTION="This module is a simple visitor implementation for Perl values.
@@ -18,6 +18,8 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/Any-Moose[>=0.09]
+        dev-perl/Class-Load
+        dev-perl/Moose
         dev-perl/namespace-clean
         dev-perl/Task-Weaken
         dev-perl/Tie-ToObject
