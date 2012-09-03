@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=RIBASUSHI ]
+require perl-module [ module_author=FREW ]
 
 SUMMARY="Extensible and flexible object <-> relational mapper"
 
@@ -30,8 +30,6 @@ DEPENDENCIES="
         dev-perl/SQL-Abstract[>=1.56]
         dev-perl/SQL-Abstract-Limit[>=0.13]
         dev-perl/Scope-Guard[>=0.03]
-        dev-perl/Sub-Name"
-
-# Were has Class/Path.pm gone?
-RESTRICT="test"
+        dev-perl/Sub-Name
+"
 
