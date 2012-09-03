@@ -12,6 +12,7 @@ MYOPTIONS=""
 DEPENDENCIES="
     test:
         dev-perl/Class-Load
+        dev-perl/Clone
         dev-perl/Module-Util
         dev-perl/Test-MockTime
     build+run:
