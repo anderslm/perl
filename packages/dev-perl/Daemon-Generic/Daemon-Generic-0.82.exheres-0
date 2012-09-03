@@ -11,6 +11,9 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
+        dev-perl/Event
+        dev-perl/AnyEvent
+        dev-perl/Eval-LineNumbers
         dev-perl/File-Flock[>=2008.01]
         dev-perl/File-Slurp[>=9999.13]
 "
