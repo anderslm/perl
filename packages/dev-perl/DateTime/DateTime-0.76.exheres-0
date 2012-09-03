@@ -16,9 +16,8 @@ DEPENDENCIES="
         dev-perl/Params-Validate[>=0.76]
     test:
         dev-perl/Test-Exception
+        dev-perl/Test-Simple
 "
-#    test:
-#        dev-perl/Test-Simple[>=0.88] [[ note = [ for Test::More 0.88 ] ]]
 
 pkg_setup() {
     export LD="${CC}"
