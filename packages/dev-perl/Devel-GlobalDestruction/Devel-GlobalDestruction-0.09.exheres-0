@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=NUFFIN ]
+require perl-module [ module_author=RIBASUSHI ]
 
 SUMMARY="Expose PL_dirty, the flag which marks global destruction."
 SLOT="0"
@@ -12,6 +12,7 @@ DEPENDENCIES="
     build+run:
         dev-perl/Scope-Guard
         dev-perl/Sub-Exporter
+        dev-perl/Sub-Exporter-Progressive
 "
 
 BUGS_TO="arkanoid@exherbo.org"
