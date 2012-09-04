@@ -14,3 +14,11 @@ DEPENDENCIES="
         dev-perl/JSON-XS[>=2.26] [[ description = [ Makes JSON parsing faster ] ]]
 "
 
+src_install() {
+    default
+
+    if [[ ${PERL_VERSION} =~ "^(5\.12|5\.10)" ]]; then
+        dosym backportPP.pm "${VENDOR_LIB}/${PN}/PP.pm"
+    fi
+}
+
