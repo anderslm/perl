@@ -1,0 +1,16 @@
+# Copyright 2012 Elias Pipping <pipping@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=BDFOY ]
+
+SUMMARY="Utilities to test STDOUT and STDERR messages"
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Sub-Exporter
+        dev-perl/Test-Tester
+"
+
