@@ -20,7 +20,7 @@ DOWNLOADS="
 "
 
 BUGS_TO="philantrop@exherbo.org"
-REMOTE_IDS="freshmeat:${PN} cpan:${PN}"
+REMOTE_IDS="freecode:${PN} cpan:${PN}"
 
 UPSTREAM_CHANGELOG="${HOMEPAGE}/dist/${PN}-$(ever range 1-2)-current/Changes"
 UPSTREAM_DOCUMENTATION="${HOMEPAGE}/docs/$(ever range 1-2)/index.html [[ lang = en ]]"
