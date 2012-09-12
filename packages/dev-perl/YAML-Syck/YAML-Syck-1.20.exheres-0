@@ -6,6 +6,6 @@ require perl-module [ module_author=TODDR ]
 SUMMARY="Fast, lightweight YAML loader and dumper."
 
 SLOT="0"
-PLATFORMS="~amd64"
+PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
