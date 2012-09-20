@@ -1,7 +1,7 @@
 # Copyright 2008 Ingmar Vanhassel <ingmar@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=JHI ]
+require perl-module [ module_author=ZEFRAM ]
 
 SUMMARY="High resolution alarm, sleep, gettimeofday, interval timers"
 
