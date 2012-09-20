@@ -30,10 +30,6 @@ DEPENDENCIES="
         dev-perl/LWP-Protocol-https [[ note = [ SSL support ] ]]
 "
 
-# recommends: dev-perl/Data-Dump
-
-DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-sydbox.patch )
-
 src_install() {
     perl-module_src_install
     dosym /usr/bin/lwp-request /usr/bin/GET
