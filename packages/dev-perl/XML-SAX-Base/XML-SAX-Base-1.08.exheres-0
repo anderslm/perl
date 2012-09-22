@@ -1,7 +1,7 @@
-# Copyright 2009 Wulf C. Krueger <philantrop@exherbo.org>
+# Copyright 2009-2012 Wulf C. Krueger <philantrop@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=KHAMPTON ]
+require perl-module [ module_author=GRANTM ]
 
 SUMMARY="Base class SAX Drivers and Filters"
 SLOT="0"
