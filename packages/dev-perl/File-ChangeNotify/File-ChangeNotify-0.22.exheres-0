@@ -18,6 +18,7 @@ DEPENDENCIES="
         dev-perl/Moose
         dev-perl/MooseX-Params-Validate[>=0.08]
         dev-perl/MooseX-SemiAffordanceAccessor
+        dev-perl/namespace-autoclean
         dev-perl/Time-HiRes
         dev-perl/Linux-Inotify2[>=1.2]
 "
