@@ -15,10 +15,18 @@ DEPENDENCIES="
         dev-perl/Class-C3
         dev-perl/Class-Data-Accessor
         dev-perl/Class-Inspector
+        dev-perl/Class-Unload
         dev-perl/DBI
         dev-perl/DBIx-Class
+        dev-perl/DBIx-Class-IntrospectableM2M
         dev-perl/Data-Dump
         dev-perl/DBD-SQLite
         dev-perl/Lingua-EN-Inflect-Number
-        dev-perl/UNIVERSAL-require"
+        dev-perl/Lingua-EN-Inflect-Phrase
+        dev-perl/Lingua-EN-Tagger
+        dev-perl/String-CamelCase
+        dev-perl/String-ToIdentifier-EN
+        dev-perl/Task-Weaken
+        dev-perl/UNIVERSAL-require
+"
 
