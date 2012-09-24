@@ -9,13 +9,6 @@ this AP"
 
 SLOT="0"
 PLATFORMS="~x86 ~amd64"
-MYOPTIONS=""
 
-DEPENDENCIES="
-    build+run:
-        || (
-            dev-perl/Parse-CPAN-Meta
-            dev-lang/perl[>=5.10.1]
-        ) [[ note = [ Added to CORE per 5.10.1 ] ]]
-        dev-lang/perl:5.10 [[ note = [ Needs ExtUtils::Installed >= 1.42 ] ]]"
+DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}/build-with-old-module-metadata.patch" )
 

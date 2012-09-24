@@ -1,0 +1,15 @@
+# Source: Written by Anders Ladegaard Marchsteiner.
+# Upstream: No.
+# Reason: Perl-5.14.2 has a quite old Module::Metadata included. This patch can be removed when perl is upgraded to a more recent version.
+diff -urpN a/inc/bundle/Module/Load/Conditional.pm b/inc/bundle/Module/Load/Conditional.pm
+--- a/inc/bundle/Module/Load/Conditional.pm	2012-09-25 19:50:55.533664446 +0200
++++ b/inc/bundle/Module/Load/Conditional.pm	2012-09-25 19:50:58.156997865 +0200
+@@ -254,7 +254,7 @@ sub check_install {
+             last DIR unless $FIND_VERSION;
+ 
+             ### otherwise, the user wants us to find the version from files
+-            my $mod_info = Module::Metadata->new_from_handle( $fh, $filename );
++            my $mod_info = Module::Metadata->new_from_file( $filename );
+             my $ver      = $mod_info->version( $args->{module} );
+ 
+             if( defined $ver ) {
