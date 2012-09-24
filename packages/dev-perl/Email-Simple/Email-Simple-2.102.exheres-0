@@ -8,3 +8,8 @@ SLOT="0"
 PLATFORMS="~amd64 ~x86"
 MYOPTIONS=""
 
+DEPENDENCIES="
+    build+run:
+        dev-perl/Email-Date-Format
+"
+
