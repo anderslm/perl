@@ -1,0 +1,16 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=JROCKWAY ]
+
+SUMMARY="Run code after a subrutine call, preserving the context the subrutine would have seen if it
+were the last statement in the caller."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    test:
+        dev-perl/Test-use-ok
+"
+
