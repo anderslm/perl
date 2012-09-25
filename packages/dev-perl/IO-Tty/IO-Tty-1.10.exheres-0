@@ -1,7 +1,7 @@
 # Copyright 2010 Mike Kelly
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=RGIERSIG ]
+require perl-module [ module_author=TODDR ]
 
 SUMMARY="Low-level allocate a pseudo-Tty, import constants."
 
