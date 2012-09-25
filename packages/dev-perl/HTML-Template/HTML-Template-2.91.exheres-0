@@ -1,7 +1,7 @@
 # Copyright 2009 Kim Højgaard-Hansen <kimrhh@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=SAMTREGAR ]
+require perl-module [ module_author=WONKO ]
 
 SUMMARY="Perl module to use HTML Templates from CGI scripts"
 
