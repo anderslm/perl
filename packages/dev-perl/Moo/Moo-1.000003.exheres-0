@@ -1,0 +1,19 @@
+# Copyright 2012 Anders Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ILMARI ]
+
+SUMMARY="Minimalist Object Orientation with Moose compatibility."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Class-Method-Modifiers
+        dev-perl/Devel-GlobalDestruction
+        dev-perl/Module-Runtime
+        dev-perl/Role-Tiny
+        dev-perl/strictures
+"
+
