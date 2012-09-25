@@ -1,7 +1,7 @@
 # Copyright 2011 Dan Callaghan <djc@djc.id.au>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=FLORA ]
+require perl-module [ module_author=DROLSKY ]
 
 SUMMARY="Perl module to efficiently compute time from local and GMT time"
 
