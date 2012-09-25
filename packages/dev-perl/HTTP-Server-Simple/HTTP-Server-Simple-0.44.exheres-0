@@ -15,8 +15,10 @@ DEPENDENCIES="
 "
 
 src_test() {
-    sydboxcmd sandunbox/net
-    default
-    sydboxcmd sandbox/net
+    esandbox allow_net "LOCAL@40000-50000"
+    esandbox allow_net --connect "LOCAL@40000-50000"
+    esandbox allow_net "inet:0.0.0.0@40000-50000"
+
+    perl-module_src_test
 }
 
