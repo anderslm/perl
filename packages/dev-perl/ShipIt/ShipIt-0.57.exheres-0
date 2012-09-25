@@ -1,7 +1,7 @@
 # Copyright 2009 Mike Kelly
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=BRADFITZ ]
+require perl-module [ module_author=MIYAGAWA ]
 
 SUMMARY="software release tool"
 DESCRIPTION="
