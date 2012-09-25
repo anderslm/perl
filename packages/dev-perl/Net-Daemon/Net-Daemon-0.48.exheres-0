@@ -3,9 +3,6 @@
 
 require perl-module [ module_author=MNOONING ]
 
-# Oh look. Yet another CPAN inconsistency
-DOWNLOADS="mirror://cpan/authors/id/M/MN/MNOONING/${PN}/${PNV}.tar.gz"
-WORK="${WORKBASE}/${PN}"
 SUMMARY="Perl extension for portable daemons "
 DESCRIPTION="Net::Daemon is an abstract base class for implementing portable
 server applications in a very simple way. The Net::Daemon class offers methods
@@ -17,4 +14,6 @@ for you, but typically inheriting will safe you a lot of work anyways."
 SLOT="0"
 PLATFORMS="~amd64 ~ppc64 ~x86"
 DEPENDENCIES=""
+
+RESTRICT="test"
 
