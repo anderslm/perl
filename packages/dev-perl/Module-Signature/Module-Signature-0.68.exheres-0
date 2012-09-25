@@ -16,5 +16,6 @@ DEPENDENCIES="
     build+run:
         app-crypt/gnupg
         dev-perl/Digest-SHA1
+        dev-perl/IPC-Run
 "
 
