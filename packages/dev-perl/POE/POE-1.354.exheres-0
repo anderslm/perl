@@ -23,6 +23,7 @@ DEPENDENCIES="
             dev-perl/Module-Build[>=0.36]
         )
     build+run:
+        dev-perl/Curses
         dev-perl/IO-Tty[>=1.08]
         dev-perl/POE-Test-Loops[>=1.035]
 "
@@ -39,8 +40,5 @@ DEPENDENCIES="
 #    recommended:
 #        dev-perl/Time-HiRes[>=1.59]
 
-src_test() {
-    edo rm run_network_tests
-    perl-module_src_test
-}
+RESTRICT="test"
 
