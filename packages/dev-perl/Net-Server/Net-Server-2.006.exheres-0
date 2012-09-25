@@ -1,0 +1,18 @@
+# Copyright 2009 Kim Højgaard-Hansen <kimrhh@exherbo.org>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RHANDOM ]
+
+SUMMARY="Extensible, general Perl server engine"
+
+SLOT="0"
+PLATFORMS="~amd64 ~x86"
+
+src_test() {
+    esandbox allow_net --connect "LOCAL@30000-60000"
+    esandbox allow_net "inet:0.0.0.0@20000-30000"
+    esandbox allow_net "unix:/tmp/*"
+
+    perl-module_src_test
+}
+
