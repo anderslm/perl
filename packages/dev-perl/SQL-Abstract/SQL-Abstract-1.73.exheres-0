@@ -1,7 +1,7 @@
 # Copyright 2009 Anders Ossowicki <arkanoid@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=RIBASUSHI ]
+require perl-module [ module_author=FREW ]
 
 SUMMARY="Generate SQL from Perl data structures"
 
@@ -10,9 +10,14 @@ PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
 DEPENDENCIES="
-    build:
+    build+run:
+        dev-perl/Class-Accessor-Grouped
         dev-perl/Clone
+        dev-perl/Getopt-Mixed
+        dev-perl/Hash-Merge
+    test:
         dev-perl/Test-Deep
         dev-perl/Test-Exception
-        dev-perl/Test-Warn"
+        dev-perl/Test-Warn
+"
 
