@@ -15,6 +15,3 @@ DEPENDENCIES="
         dev-perl/Log-Log4perl[>=1.20]
 "
 
-# This package works fine but the tests fail anyway.
-RESTRICT="test"
-
