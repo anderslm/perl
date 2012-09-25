@@ -1,7 +1,7 @@
 # Copyright 2010 Anders Ossowicki <aowi@exherbo.org>
 # Distributed under the terms of the GNU General Public License v2
 
-require perl-module [ module_author=RKITOVER ]
+require perl-module [ module_author=DROLSKY ]
 
 SUMMARY="Organise your Moose types in libraries"
 SLOT="0"
@@ -15,6 +15,4 @@ DEPENDENCIES="
         dev-perl/Sub-Name
         dev-perl/namespace-clean[>=0.08]
 "
-
-RESTRICT="test"
 
