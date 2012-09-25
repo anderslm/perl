@@ -22,11 +22,20 @@ DEPENDENCIES="
         dev-perl/Class-C3
         dev-perl/Class-C3-Componentised[>=1.0005]
         dev-perl/Class-Inspector[>=1.24]
-        dev-perl/DBI[>=1.605]
+        dev-perl/Config-Any
+        dev-perl/Context-Preserve
+        dev-perl/Data-Compare
+        dev-perl/Data-Dumper
+        dev-perl/Data-Dumper-Concise
         dev-perl/Data-Page
+        dev-perl/DBI[>=1.605]
+        dev-perl/Devel-GlobalDestruction
         dev-perl/JSON-Any[>=1.18]
+        dev-perl/Moo
         dev-perl/Module-Find
         dev-perl/MRO-Compat[>=0.09]
+        dev-perl/namespace-clean
+        dev-perl/Path-Class
         dev-perl/SQL-Abstract[>=1.56]
         dev-perl/SQL-Abstract-Limit[>=0.13]
         dev-perl/Scope-Guard[>=0.03]
