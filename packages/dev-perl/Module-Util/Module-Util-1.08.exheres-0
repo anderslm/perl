@@ -8,5 +8,8 @@ SLOT="0"
 PLATFORMS="~amd64"
 MYOPTIONS=""
 
-DEPENDENCIES=""
+DEPENDENCIES="
+    build+run:
+        dev-perl/Module-Build[>=0.4]
+"
 
