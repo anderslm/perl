@@ -1,0 +1,18 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=INGY ]
+
+SUMMARY="Postmodern Perl Module Packaging."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/IO-All
+        dev-perl/Module-Install-AuthorRequires
+        dev-perl/Module-Install-ManifestSkip
+        dev-perl/Moo
+"
+
