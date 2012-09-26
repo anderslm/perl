@@ -1,0 +1,19 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ACOBURN ]
+
+SUMMARY="Part-of-speech tagger for English natural language processing."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+RESTRICT="test"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/HTML-Parser
+        dev-perl/Lingua-Stem
+        dev-perl/Memoize-ExpireLRU
+"
+
