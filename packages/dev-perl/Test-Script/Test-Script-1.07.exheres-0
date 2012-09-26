@@ -1,0 +1,16 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=ADAMK ]
+
+SUMMARY="Basic cross-platform tests for scripts."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/IPC-Run3
+        dev-perl/Probe-Perl
+"
+
