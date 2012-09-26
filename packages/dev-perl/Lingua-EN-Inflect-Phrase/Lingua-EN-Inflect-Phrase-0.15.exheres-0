@@ -1,0 +1,25 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RKITOVER ]
+
+SUMMARY="Inflect short English Phrases."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+RESTRICT="test"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Exporter
+        dev-perl/HTML-Parser
+        dev-perl/Lingua-EN-FindNumber
+        dev-perl/Lingua-EN-Inflect
+        dev-perl/Lingua-EN-Inflect-Number
+        dev-perl/Lingua-EN-Tagger
+    test:
+        dev-perl/Test-Simple
+        dev-perl/Test-NoWarnings
+"
+
