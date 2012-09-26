@@ -1,0 +1,17 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=RKITOVER ]
+
+SUMMARY="Convert String to English Program Identifiers."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Lingua-EN-Inflect-Phrase
+        dev-perl/namespace-clean
+        dev-perl/Text-Unidecode
+"
+
