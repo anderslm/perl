@@ -15,5 +15,8 @@ MYOPTIONS=""
 
 DEPENDENCIES="
     build+run:
-        dev-perl/Module-Pluggable"
+        dev-perl/Module-Pluggable
+        dev-perl/XML-Parser
+        dev-perl/XML-SAX
+"
 
