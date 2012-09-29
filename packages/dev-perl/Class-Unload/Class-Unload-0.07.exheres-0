@@ -8,3 +8,8 @@ SUMMARY="Unload a class."
 SLOT="0"
 PLATFORMS="~amd64"
 
+DEPENDENCIES="
+    build+run:
+        dev-perl/Class-Inspector
+"
+
