@@ -17,3 +17,5 @@ MYOPTIONS=""
 DEPENDENCIES="
 "
 
+RESTRICT="test"
+
