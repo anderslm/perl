@@ -11,6 +11,7 @@ MYOPTIONS=""
 DEPENDENCIES="
     build+run:
         dev-perl/XML-NamespaceSupport[>=1.10]
+        dev-perl/XML-SAX-Base
 "
 
 DEFAULT_SRC_PREPARE_PATCHES=( "${FILES}"/${PNV}-install.patch )
