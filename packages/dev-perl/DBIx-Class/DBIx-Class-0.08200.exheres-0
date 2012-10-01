@@ -9,6 +9,8 @@ SLOT="0"
 PLATFORMS="~x86 ~amd64"
 MYOPTIONS=""
 
+RESTRICT="test"
+
 DEPENDENCIES="
     build:
         dev-perl/Class-Trigger
