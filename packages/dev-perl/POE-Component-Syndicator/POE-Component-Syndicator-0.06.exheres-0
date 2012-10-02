@@ -1,0 +1,16 @@
+# Copyright 2012 Anders Ladegaard Marchsteiner <alm.anma@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require perl-module [ module_author=HINRIK ]
+
+SUMMARY="A POE component base class which implements the Observer pattern."
+
+SLOT="0"
+PLATFORMS="~amd64"
+
+DEPENDENCIES="
+    build+run:
+        dev-perl/Object-Pluggable
+        dev-perl/POE
+"
+
