@@ -13,6 +13,7 @@ DEPENDENCIES="
         dev-perl/Encode-Locale
         dev-perl/HTML-Parser
         dev-perl/HTTP-Date
+        dev-perl/IO-HTML
         dev-perl/LWP-MediaTypes
         dev-perl/URI
 "
