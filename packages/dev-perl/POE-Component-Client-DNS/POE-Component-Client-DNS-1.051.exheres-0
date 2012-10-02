@@ -20,3 +20,6 @@ DEPENDENCIES="
         dev-perl/Net-DNS[>=0.59]
 "
 
+# Tests need networking.
+RESTRICT="test"
+
